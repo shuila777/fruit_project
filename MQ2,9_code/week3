@@ -1,0 +1,166 @@
+#include <Wire.h>
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BME280.h>
+
+
+#define MQ2_PIN A0
+#define MQ9_PIN A1
+
+
+// ====== 你每次量測只改這兩個 ======
+const char FRUIT_ID[] = "P1";   // 改成 "P1" 或 "P2"
+const int  DIST_CM = 5;         // 改成 5 或 10
+// ==================================
+
+
+Adafruit_BME280 bme;
+
+
+// 固定規格
+const unsigned long WARMUP_MS = 300000;        // 5 min（不輸出）
+const unsigned long SAMPLE_INTERVAL_MS = 1000; // 1 Hz
+const int BG_SAMPLES = 60;                     // 60 秒
+const int MEAS_SAMPLES = 900;                  // 15 分鐘 = 900 筆
+
+
+unsigned long t0 = 0;
+unsigned long lastSample = 0;
+int idx = 0;
+
+
+// BG 統計
+double bg_mq2_sum = 0, bg_mq2_sumsq = 0;
+double bg_mq9_sum = 0, bg_mq9_sumsq = 0;
+
+
+float readVolt(int pin) {
+  int adc = analogRead(pin);
+  return adc * (5.0 / 1023.0);
+}
+
+
+void printHeader() {
+  Serial.println("fruit_id,dist_cm,phase,idx,time_ms,mq2_v,mq9_v,tempC,rh");
+}
+
+
+void printRow(const char* phase, int idx, unsigned long t_ms,
+              float mq2, float mq9, float t, float rh) {
+  Serial.print(FRUIT_ID); Serial.print(",");
+  Serial.print(DIST_CM);  Serial.print(",");
+  Serial.print(phase);    Serial.print(",");
+  Serial.print(idx);      Serial.print(",");
+  Serial.print(t_ms);     Serial.print(",");
+  Serial.print(mq2, 3);   Serial.print(",");
+  Serial.print(mq9, 3);   Serial.print(",");
+  Serial.print(t, 2);     Serial.print(",");
+  Serial.println(rh, 2);
+}
+
+
+double calcMean(double sum, int n) { return sum / n; }
+double calcStd(double sum, double sumsq, int n) {
+  double mean = sum / n;
+  double var = (sumsq / n) - (mean * mean);
+  if (var < 0) var = 0;
+  return sqrt(var);
+}
+
+
+void setup() {
+  Serial.begin(9600);
+  delay(300);
+
+
+  // BME init（0x76/0x77都試）
+  bool ok = bme.begin(0x76);
+  if (!ok) ok = bme.begin(0x77);
+  if (!ok) {
+    while (1) {
+      Serial.println("BME280_NOT_FOUND");
+      delay(1000);
+    }
+  }
+
+
+  // Warm-up（不輸出）
+  unsigned long start = millis();
+  while (millis() - start < WARMUP_MS) delay(200);
+
+
+  t0 = millis();
+  printHeader();
+}
+
+
+void loop() {
+  unsigned long now = millis();
+  if (now - lastSample < SAMPLE_INTERVAL_MS) return;
+  lastSample = now;
+
+
+  float mq2 = readVolt(MQ2_PIN);
+  float mq9 = readVolt(MQ9_PIN);
+  float t = bme.readTemperature();
+  float rh = bme.readHumidity();
+
+
+  unsigned long t_ms = now - t0;
+
+
+  // ===== BG phase =====
+  if (idx < BG_SAMPLES) {
+    printRow("BG", idx, t_ms, mq2, mq9, t, rh);
+
+
+    bg_mq2_sum += mq2; bg_mq2_sumsq += (double)mq2 * mq2;
+    bg_mq9_sum += mq9; bg_mq9_sumsq += (double)mq9 * mq9;
+
+
+    idx++;
+
+
+    // BG 結束後，多印一行統計（方便你記錄）
+    if (idx == BG_SAMPLES) {
+      double mq2_mean = calcMean(bg_mq2_sum, BG_SAMPLES);
+      double mq2_std  = calcStd(bg_mq2_sum, bg_mq2_sumsq, BG_SAMPLES);
+      double mq9_mean = calcMean(bg_mq9_sum, BG_SAMPLES);
+      double mq9_std  = calcStd(bg_mq9_sum, bg_mq9_sumsq, BG_SAMPLES);
+
+
+      Serial.print("#BG_STATS,");
+      Serial.print("mq2_mean="); Serial.print(mq2_mean, 4); Serial.print(",");
+      Serial.print("mq2_std=");  Serial.print(mq2_std, 4);  Serial.print(",");
+      Serial.print("mq9_mean="); Serial.print(mq9_mean, 4); Serial.print(",");
+      Serial.print("mq9_std=");  Serial.println(mq9_std, 4);
+    }
+    return;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  // ===== MEAS phase (900 samples) =====
+  int meas_idx = idx - BG_SAMPLES;
+  if (meas_idx < MEAS_SAMPLES) {
+    printRow("MEAS", meas_idx, t_ms, mq2, mq9, t, rh);
+    idx++;
+    return;
+  }
+
+
+  // 全部跑完就停住
+  Serial.println("#DONE");
+  while (1) delay(1000);
+}
+
+
+
