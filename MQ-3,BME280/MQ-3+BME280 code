@@ -1,0 +1,262 @@
+#include <Wire.h>
+#include <BME280I2C.h>
+#include <math.h>
+
+/* MQ-3 腳位 */
+#define MQ3_AO_PIN   A1
+#define MQ3_DO_PIN   2
+
+/* 輸出裝置 */
+#define BUZZER_PIN   3
+#define LED_PIN      4
+
+/* 固定 1 秒輸出一次 */
+#define SAMPLE_INTERVAL_MS   1000UL
+
+/* Warmup：最短 1 分鐘 + 穩定判斷 + 最長 6 分鐘 */
+#define WARMUP_MIN_MS        60000UL
+#define WARMUP_MAX_MS        360000UL
+#define STABLE_SECONDS       40
+#define STABLE_SAMPLES       (STABLE_SECONDS * 1000UL / SAMPLE_INTERVAL_MS)  // 40秒/1秒=40筆
+#define STABLE_DELTA_ADC     3
+
+/* baseline 收集時間（2 分鐘） */
+#define BASELINE_MS          120000UL
+
+/* MQ-3 電路參數 */
+#define VCC_VOLTS   5.0f
+#define RL_OHMS     200000.0f
+
+/* MQ-3 曲線參數（估算用） */
+#define MQ3_M   (-0.77f)
+#define MQ3_B   ( 1.60f)
+
+/* ratio 異常保護範圍 */
+#define RATIO_MIN  0.05f
+#define RATIO_MAX  20.0f
+
+/* 警示門檻（估算 ppm） */
+#define ALCOHOL_THRESHOLD_PPM  300.0f
+
+/* Serial */
+#define SERIAL_BAUD 9600
+
+/* BME280（I2C） */
+BME280I2C bme;
+
+/* 前一次數值（做 Δ） */
+float prevEthanolOut = NAN;
+float prevTempC      = NAN;
+float prevHumRH      = NAN;
+float prevPres_hPa   = NAN;   // 新增：前一次氣壓（hPa）
+
+/* 標題只印一次 */
+bool headerPrinted = false;
+
+/* baseline */
+bool warmupDone = false;
+bool baselineReady = false;
+float R0 = NAN;
+
+/* 時間控制 */
+unsigned long tStart = 0;
+unsigned long lastSample = 0;
+
+/* baseline 累積 */
+unsigned long baselineStart = 0;
+double baselineSumRs = 0.0;
+unsigned long baselineCount = 0;
+
+/* warmup 穩定判斷 */
+int prevWarmupADC = -1;
+unsigned long stableCount = 0;
+
+/* ADC → Rs（分壓公式） */
+float mq3_adc_to_Rs(int adc)
+{
+  if (adc <= 0) adc = 1;
+  if (adc >= 1023) adc = 1022;
+
+  float vout = (adc / 1023.0f) * VCC_VOLTS;
+  float rs = RL_OHMS * (VCC_VOLTS - vout) / vout;
+  return rs;
+}
+
+/* MQ-3：多次取樣取中位數（抗突波） */
+int mq3_read_median_adc(int samples)
+{
+  if (samples < 3) samples = 3;
+  if (samples > 15) samples = 15;
+
+  int buf[15];
+  for (int i = 0; i < samples; i++) {
+    buf[i] = analogRead(MQ3_AO_PIN);
+    delay(10);
+  }
+
+  for (int i = 0; i < samples - 1; i++) {
+    for (int j = 0; j < samples - 1 - i; j++) {
+      if (buf[j] > buf[j + 1]) {
+        int tmp = buf[j];
+        buf[j] = buf[j + 1];
+        buf[j + 1] = tmp;
+      }
+    }
+  }
+
+  return buf[samples / 2];
+}
+
+/* ratio → ppm（estimate） */
+float mq3_ratio_to_ppm(float ratio)
+{
+  if (ratio <= 0.000001f) ratio = 0.000001f;
+
+  float log_ratio = log10(ratio);
+  float log_ppm = (log_ratio - MQ3_B) / MQ3_M;
+  float ppm = pow(10.0f, log_ppm);
+
+  if (ppm < 0) ppm = 0;
+  if (ppm > 10000) ppm = 10000;
+  return ppm;
+}
+
+void setup()
+{
+  Serial.begin(SERIAL_BAUD);
+  delay(200);
+
+  pinMode(MQ3_DO_PIN, INPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
+
+  digitalWrite(BUZZER_PIN, LOW);
+  digitalWrite(LED_PIN, LOW);
+
+  Wire.begin();
+
+  while (!bme.begin()) {
+    Serial.println("Could not find BME280 sensor!");
+    delay(1000);
+  }
+
+  tStart = millis();
+}
+
+void loop()
+{
+  unsigned long now = millis();
+  if (now - lastSample < SAMPLE_INTERVAL_MS) return;
+  lastSample = now;
+
+  /* ===== 讀 MQ-3（用於 warmup/baseline/ppm） ===== */
+  int adc = mq3_read_median_adc(9);
+  float Rs = mq3_adc_to_Rs(adc);
+
+  /* ===== Warmup 判斷 ===== */
+  unsigned long sinceStart = now - tStart;
+
+  if (!warmupDone) {
+    if (sinceStart < WARMUP_MIN_MS) {
+      // 強制 warmup
+    } else {
+      if (prevWarmupADC >= 0 && abs(adc - prevWarmupADC) <= STABLE_DELTA_ADC) {
+        stableCount++;
+      } else {
+        stableCount = 0;
+      }
+      prevWarmupADC = adc;
+
+      if (stableCount >= STABLE_SAMPLES) warmupDone = true;
+      if (sinceStart >= WARMUP_MAX_MS)   warmupDone = true;
+    }
+  }
+
+  /* ===== Baseline：warmupDone 後才開始收集 R0 ===== */
+  if (warmupDone && !baselineReady) {
+    if (baselineStart == 0) {
+      baselineStart = now;
+      baselineSumRs = 0.0;
+      baselineCount = 0;
+    }
+
+    baselineSumRs += Rs;
+    baselineCount++;
+
+    if (now - baselineStart >= BASELINE_MS && baselineCount > 0) {
+      R0 = (float)(baselineSumRs / (double)baselineCount);
+      baselineReady = true;
+    }
+  }
+
+  /* ===== MQ-3：Ethanol(ppm) + NAFlag ===== */
+  float ethanolOut;
+  const char* naFlag = "OK";
+
+  if (!baselineReady) {
+    ethanolOut = (float)map(adc, 0, 1023, 0, 1000);
+    naFlag = "NA";
+  } else {
+    float ratio = Rs / R0;
+    if (ratio < RATIO_MIN || ratio > RATIO_MAX || isnan(ratio)) {
+      ethanolOut = isnan(prevEthanolOut) ? 0.0f : prevEthanolOut;
+      naFlag = "WARN";
+    } else {
+      ethanolOut = mq3_ratio_to_ppm(ratio);
+      naFlag = "OK";
+    }
+  }
+
+  float deltaE = isnan(prevEthanolOut) ? 0.0f : (ethanolOut - prevEthanolOut);
+
+  /* ===== 讀 BME280：溫度/濕度/氣壓 ===== */
+  float tempC(NAN), humRH(NAN), presPa(NAN);
+  bme.read(presPa, tempC, humRH, BME280::TempUnit_Celsius, BME280::PresUnit_Pa);
+
+  // Δ溫度 / Δ濕度（第一筆先當 0）
+  float deltaT = isnan(prevTempC) ? 0.0f : (tempC - prevTempC);
+  float deltaH = isnan(prevHumRH) ? 0.0f : (humRH - prevHumRH);
+
+  // 氣壓：Pa → hPa
+  float pres_hPa = presPa / 100.0f;
+
+  // 新增：Δ氣壓（hPa）
+  float deltaP = isnan(prevPres_hPa) ? 0.0f : (pres_hPa - prevPres_hPa);
+
+  /* ===== 表頭（只印一次）：Pressure 在 NAFlag 前面，NAFlag 最後 ===== */
+  if (!headerPrinted) {
+    Serial.println("Humidity(%),DeltaHumidity(%),Temperature(C),DeltaTemperature(C),Ethanol(ppm),DeltaEthanol(ppm),Pressure(hPa),DeltaPressure(hPa),NAFlag");
+    headerPrinted = true;
+  }
+
+  /* ===== 一秒一行 CSV ===== */
+  Serial.print(humRH, 1);       Serial.print(",");
+  Serial.print(deltaH, 1);      Serial.print(",");
+  Serial.print(tempC, 1);       Serial.print(",");
+  Serial.print(deltaT, 1);      Serial.print(",");
+  Serial.print(ethanolOut, 1);  Serial.print(",");
+  Serial.print(deltaE, 1);      Serial.print(",");
+  Serial.print(pres_hPa, 1);    Serial.print(",");
+  Serial.print(deltaP, 1);      Serial.print(",");
+  Serial.println(naFlag);
+
+  /* ===== 警示：只在 OK 時啟用 ===== */
+  if (baselineReady && naFlag[0] == 'O') {
+    if (ethanolOut > ALCOHOL_THRESHOLD_PPM) {
+      digitalWrite(LED_PIN, HIGH);
+      tone(BUZZER_PIN, 1000);
+    } else {
+      digitalWrite(LED_PIN, LOW);
+      noTone(BUZZER_PIN);
+    }
+  } else {
+    digitalWrite(LED_PIN, LOW);
+    noTone(BUZZER_PIN);
+  }
+
+  /* ===== 更新前一次數值 ===== */
+  prevEthanolOut = ethanolOut;
+  prevTempC = tempC;
+  prevHumRH = humRH;
+  prevPres_hPa = pres_hPa;
+}
