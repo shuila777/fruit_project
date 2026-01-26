@@ -8,8 +8,8 @@
 
 
 // ====== 你每次量測只改這兩個 ======
-const char FRUIT_ID[] = "P1";   // 改成 "P1" 或 "P2"
-const int  DIST_CM = 5;         // 改成 5 或 10
+const char FRUIT_ID[] = "P1";   // 改成 "P1" 或 "P2" 鳳梨
+const int  DIST_CM = 5;         // 改成 5 或 10 cm
 // ==================================
 
 
