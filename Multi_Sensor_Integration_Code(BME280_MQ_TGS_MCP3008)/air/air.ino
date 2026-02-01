@@ -7,7 +7,7 @@
 Adafruit_BME280 bme;
 
 // ---------- MCP3008 SPI 設定 ----------
-const int CS_PIN = 53;  // Mega 用 53，UNO 用 10
+const int CS_PIN = 53;
 
 // ---------- MCP3008 Channel 定義 ----------
 #define MQ2_CH      0
@@ -17,14 +17,14 @@ const int CS_PIN = 53;  // Mega 用 53，UNO 用 10
 #define TGS2602_CH  4
 
 const unsigned long SAMPLE_INTERVAL_MS = 1000;
-const unsigned long PREHEAT_TIME_MS = 5UL * 60UL * 1000UL; // 5 分鐘
-const unsigned long DELAY_START_SEC = 30; // 延遲啟動時間（秒）
-const int MAX_SAMPLES = 900; // 最多記錄 900 筆
+const unsigned long PREHEAT_TIME_MS = 5UL * 60UL * 1000UL;
+const unsigned long DELAY_START_SEC = 30;
+const int MAX_SAMPLES = 900;
 
-// ---------- (2) baseline 設定：用前 N 筆當 baseline ----------
-const int BASELINE_SAMPLES = 30; // 建議 20~60：可調
+// ---------- baseline 設定 ----------
+const int BASELINE_SAMPLES = 30;
 
-// ---------- (4) rolling 平滑：移動平均窗口 ----------
+// ---------- rolling 平滑 ----------
 const int MA_WIN = 5;
 
 // ---------- 感測器資料結構 ----------
@@ -75,7 +75,7 @@ bool preheatDone = false;
 bool recordingStarted = false;
 int sampleCount = 0;
 
-// -------- 最終統計用（全程累積，不印在中間）--------
+// -------- 最終統計用 --------
 long sum_mq2 = 0, sum_mq3 = 0, sum_mq9 = 0, sum_mq135 = 0, sum_tgs = 0;
 float sum_temp = 0, sum_hum = 0, sum_press = 0;
 
@@ -85,7 +85,7 @@ int max_mq2 = 0,    max_mq3 = 0,    max_mq9 = 0,    max_mq135 = 0,    max_tgs = 
 float min_temp = 9999, min_hum = 9999, min_press = 999999;
 float max_temp = -9999, max_hum = -9999, max_press = -999999;
 
-// -------- (2) baseline 累積（前 BASELINE_SAMPLES 筆）--------
+// -------- baseline 累積 --------
 bool baselineReady = false;
 int baselineCount = 0;
 
@@ -95,11 +95,11 @@ float base_sum_temp = 0, base_sum_hum = 0, base_sum_press = 0;
 float base_mq2 = 0, base_mq3 = 0, base_mq9 = 0, base_mq135 = 0, base_tgs = 0;
 float base_temp = 0, base_hum = 0, base_press = 0;
 
-// -------- (3) delta：前一筆 logr --------
+// -------- delta --------
 bool hasPrev = false;
 float prev_l_mq2 = 0, prev_l_mq3 = 0, prev_l_mq9 = 0, prev_l_mq135 = 0, prev_l_tgs = 0;
 
-// -------- (4) rolling MA5：logr buffer --------
+// -------- rolling MA5 --------
 float buf_l_mq2[MA_WIN], buf_l_mq3[MA_WIN], buf_l_mq9[MA_WIN], buf_l_mq135[MA_WIN], buf_l_tgs[MA_WIN];
 int bufIdx = 0;
 int bufFilled = 0;
@@ -111,9 +111,32 @@ float meanBuf(const float *buf, int n) {
   return s / (float)n;
 }
 
-// -------- (5) 異常檢查 --------
-bool isValidInt(int v) { return v >= 0; }
-bool isValidFloat(float x) { return isfinite(x); }
+// -------- 異常檢查（改進版）👈 --------
+bool isValidMQRaw(int v) { 
+  // MQ 感測器合理範圍：10-1000
+  // 低於 10 可能是斷電或接觸不良
+  // 高於 1000 可能是異常讀值
+  return v >= 10 && v <= 1000; 
+}
+
+bool isValidFloat(float x) { 
+  return isfinite(x) && !isnan(x); 
+}
+
+bool isValidTemp(float t) {
+  // 溫度合理範圍：0-50°C
+  return t > 0 && t < 50;
+}
+
+bool isValidHumidity(float h) {
+  // 濕度合理範圍：0-100%
+  return h >= 0 && h <= 100;
+}
+
+bool isValidPressure(float p) {
+  // 氣壓合理範圍：800-1100 hPa
+  return p > 800 && p < 1100;
+}
 
 void setup() {
   Serial.begin(115200);
@@ -217,25 +240,29 @@ void loop() {
   // ---------- 讀值 ----------
   SensorData d = readAllSensors();
 
-  // ---------- (5) 異常值保護：任何 -1 或 NaN 就跳過不寫 CSV ----------
-  if (!isValidInt(d.mq2_raw) || !isValidInt(d.mq3_raw) || !isValidInt(d.mq9_raw) ||
-      !isValidInt(d.mq135_raw) || !isValidInt(d.tgs2602_raw) ||
-      !isValidFloat(d.temperature) || !isValidFloat(d.humidity) || !isValidFloat(d.pressure)) {
+  // ---------- 異常值保護（改進版）👈 ----------
+  if (!isValidMQRaw(d.mq2_raw) || !isValidMQRaw(d.mq3_raw) || 
+      !isValidMQRaw(d.mq9_raw) || !isValidMQRaw(d.mq135_raw) || 
+      !isValidMQRaw(d.tgs2602_raw) ||
+      !isValidTemp(d.temperature) || !isValidHumidity(d.humidity) || 
+      !isValidPressure(d.pressure)) {
 
     Serial.print("# WARN invalid read, skipped. raw=");
     Serial.print(d.mq2_raw); Serial.print(",");
     Serial.print(d.mq3_raw); Serial.print(",");
     Serial.print(d.mq9_raw); Serial.print(",");
     Serial.print(d.mq135_raw); Serial.print(",");
-    Serial.print(d.tgs2602_raw);
-    Serial.println();
-    return;
+    Serial.print(d.tgs2602_raw); Serial.print(" T=");
+    Serial.print(d.temperature); Serial.print(" H=");
+    Serial.print(d.humidity); Serial.print(" P=");
+    Serial.println(d.pressure);
+    return;  // 👈 跳過這筆，不計入 sampleCount
   }
 
   // 到這裡才算有效樣本
   sampleCount++;
 
-  // ---------- (2) baseline 累積 ----------
+  // ---------- baseline 累積 ----------
   if (!baselineReady) {
     base_sum_mq2 += d.mq2_raw;
     base_sum_mq3 += d.mq3_raw;
@@ -295,7 +322,7 @@ void loop() {
   min_hum  = min(min_hum,  d.humidity);     max_hum  = max(max_hum,  d.humidity);
   min_press = min(min_press, d.pressure);   max_press = max(max_press, d.pressure);
 
-  // ---------- (1) timestamp_s ----------
+  // ---------- timestamp_s ----------
   unsigned long elapsed_ms = now - recordStartTime;
   float elapsed_s = elapsed_ms / 1000.0f;
 
@@ -339,7 +366,7 @@ void loop() {
   float ma_mq135 = meanBuf(buf_l_mq135, bufFilled);
   float ma_tgs   = meanBuf(buf_l_tgs, bufFilled);
 
-  // ---------- 輸出 CSV（只印純數據） ----------
+  // ---------- 輸出 CSV ----------
   Serial.print(elapsed_ms); Serial.print(",");
   Serial.print(elapsed_s, 3); Serial.print(",");
 
@@ -371,7 +398,7 @@ void loop() {
   Serial.print(ma_mq135, 6); Serial.print(",");
   Serial.println(ma_tgs, 6);
 
-  // ---------- 停止條件：到 MAX_SAMPLES 才印 summary ----------
+  // ---------- 停止條件 ----------
   if (sampleCount >= MAX_SAMPLES) {
     Serial.println("# ====================================");
     Serial.println("# ✅ 記錄完成！");
