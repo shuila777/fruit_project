@@ -1,4 +1,4 @@
-# Multi Sensor Fruit Project (TGS2602 + TGS2620)
+# Multi Sensor Fruit Project (All Sensors + TGS2620)
 
 ## 專案簡介
 本專案為多感測器氣體量測系統，使用 Arduino 搭配 MQ 系列感測器、
