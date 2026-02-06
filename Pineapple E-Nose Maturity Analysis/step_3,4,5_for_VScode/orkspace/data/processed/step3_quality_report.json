@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-02-06T01:14:15.332229",
+  "total_pineapples": 8,
+  "pineapple_reports": {
+    "07": {
+      "distribution": {
+        "0": 300,
+        "1": 300,
+        "2": 300,
+        "3": 300,
+        "4": 300,
+        "5": 300,
+        "6": 370,
+        "7": 529
+      },
+      "entropy": 0.9891754305041403,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 2.593553167839941,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.6458829056143097,
+      "clustering_quality": "優秀"
+    },
+    "08": {
+      "distribution": {
+        "0": 300,
+        "1": 300,
+        "2": 300,
+        "3": 300,
+        "4": 300,
+        "5": 300,
+        "6": 300,
+        "7": 300,
+        "8": 300
+      },
+      "entropy": 0.9999999995903924,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 2.962962962962963,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.7409091625299665,
+      "clustering_quality": "優秀"
+    },
+    "02": {
+      "distribution": {
+        "0": 900,
+        "1": 900,
+        "2": 900,
+        "3": 900
+      },
+      "entropy": 0.9999999997114609,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 0.8333333333333333,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.696696553428573,
+      "clustering_quality": "優秀"
+    },
+    "06": {
+      "distribution": {
+        "0": 900,
+        "1": 900
+      },
+      "entropy": 0.9999999997114609,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 0.5555555555555556,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.5009311555933169,
+      "clustering_quality": "優秀"
+    },
+    "04": {
+      "distribution": {
+        "0": 900,
+        "1": 900,
+        "2": 300,
+        "3": 599
+      },
+      "entropy": 0.9454787218083707,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 1.1115227862171175,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.9370571132788388,
+      "clustering_quality": "優秀"
+    },
+    "03": {
+      "distribution": {
+        "0": 900,
+        "1": 900,
+        "2": 900
+      },
+      "entropy": 0.9999999997269281,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 0.7407407407407407,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.940407467040004,
+      "clustering_quality": "優秀"
+    },
+    "01": {
+      "distribution": {
+        "0": 900,
+        "1": 900,
+        "2": 900,
+        "3": 900,
+        "4": 900
+      },
+      "entropy": 0.9999999996893326,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 0.8888888888888888,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.7320119716586794,
+      "clustering_quality": "優秀"
+    },
+    "05": {
+      "distribution": {
+        "0": 500,
+        "1": 400,
+        "2": 900,
+        "3": 900,
+        "4": 600,
+        "5": 300
+      },
+      "entropy": 0.958367083435999,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 1.3888888888888888,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.6951148917761634,
+      "clustering_quality": "優秀"
+    }
+  },
+  "overall_status": "PASS"
+}
