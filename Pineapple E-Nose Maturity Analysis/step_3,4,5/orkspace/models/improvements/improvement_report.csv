@@ -1,0 +1,13 @@
+﻿experiment,accuracy,improvement,stage2_recall,error,n_features
+class_weight_None (基準),0.945,0.0,0.8611111111111112,,
+features_53,0.945,0.0,,,53.0
+class_weight_Custom (強化Stage2),0.9349999999999999,-0.010000000000000009,0.8333333333333334,,
+class_weight_Balanced,0.9349999999999999,-0.010000000000000009,0.8055555555555556,,
+features_40,0.93,-0.014999999999999902,,,40.0
+features_30,0.93,-0.014999999999999902,,,30.0
+features_20,0.8699999999999999,-0.07500000000000007,,,20.0
+features_10,0.7799999999999999,-0.16500000000000004,,,10.0
+window_60s,0.0,0.0,,name 'FeatureEngineering' is not defined,
+window_240s,0.0,0.0,,name 'FeatureEngineering' is not defined,
+window_120s,0.0,0.0,,name 'FeatureEngineering' is not defined,
+window_180s,0.0,0.0,,name 'FeatureEngineering' is not defined,
