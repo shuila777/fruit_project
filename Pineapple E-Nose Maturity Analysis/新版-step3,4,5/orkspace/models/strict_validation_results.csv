@@ -1,0 +1,4 @@
+﻿config,accuracy,n_samples,validation
+window_30s,0.6224944320712695,898,LOSO
+window_45s,0.617056856187291,598,LOSO
+best_model_window_60s_LOSO,0.5982142857142857,448,LOSO
