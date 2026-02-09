@@ -1,4 +1,4 @@
 ﻿config,accuracy,n_samples,validation
-best_model_window_60s_LOSO,0.5459057071960298,403,LOSO
-window_30s,0.5,808,LOSO
-window_45s,0.4888475836431227,538,LOSO
+window_45s,0.5885911840968021,1157,LOSO
+window_30s,0.5659182498560736,1737,LOSO
+best_model_window_60s_LOSO,0.5594002306805075,867,LOSO
