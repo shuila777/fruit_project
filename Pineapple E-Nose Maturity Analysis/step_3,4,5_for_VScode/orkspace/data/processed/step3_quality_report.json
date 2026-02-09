@@ -1,8 +1,28 @@
 {
-  "timestamp": "2026-02-09T17:56:47.406856",
+  "timestamp": "2026-02-09T19:18:57.679780",
   "total_pineapples": 11,
   "pineapple_reports": {
     "01": {
+      "distribution": {
+        "0": 900,
+        "1": 900,
+        "2": 900,
+        "3": 900,
+        "4": 900,
+        "5": 900,
+        "6": 900,
+        "7": 900,
+        "8": 900
+      },
+      "entropy": 0.9999999995903924,
+      "issues": [],
+      "status": "PASS",
+      "changepoint_density": 0.9876543209876544,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.37217566195999996,
+      "clustering_quality": "良好"
+    },
+    "02": {
       "distribution": {
         "0": 900,
         "1": 900,
@@ -18,25 +38,7 @@
       "status": "PASS",
       "changepoint_density": 0.9722222222222222,
       "changepoint_status": "正常",
-      "silhouette_score": 0.3483645707555624,
-      "clustering_quality": "良好"
-    },
-    "02": {
-      "distribution": {
-        "0": 900,
-        "1": 900,
-        "2": 900,
-        "3": 900,
-        "4": 900,
-        "5": 900,
-        "6": 900
-      },
-      "entropy": 0.9999999996402712,
-      "issues": [],
-      "status": "PASS",
-      "changepoint_density": 0.9523809523809524,
-      "changepoint_status": "正常",
-      "silhouette_score": 0.41682650785624853,
+      "silhouette_score": 0.4452210661952088,
       "clustering_quality": "良好"
     },
     "03": {
@@ -44,19 +46,22 @@
         "0": 900,
         "1": 900,
         "2": 900,
-        "3": 370,
-        "4": 410,
-        "5": 1020,
-        "6": 390,
-        "7": 510,
-        "8": 410,
-        "9": 490
+        "3": 450,
+        "4": 450,
+        "5": 390,
+        "6": 510,
+        "7": 390,
+        "8": 510,
+        "9": 410,
+        "10": 490
       },
-      "entropy": 0.9664014352315795,
+      "entropy": 0.9753894995533174,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 1.4285714285714286,
-      "changepoint_status": "正常"
+      "changepoint_density": 1.5873015873015874,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.5066099334692378,
+      "clustering_quality": "優秀"
     },
     "04": {
       "distribution": {
@@ -85,30 +90,30 @@
         "2": 900,
         "3": 900,
         "4": 600,
-        "5": 300,
-        "6": 900
+        "5": 300
       },
-      "entropy": 0.9631138732805153,
+      "entropy": 0.958367083435999,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 1.3333333333333333,
+      "changepoint_density": 1.3888888888888888,
       "changepoint_status": "正常",
-      "silhouette_score": 0.45804825252017134,
-      "clustering_quality": "良好"
+      "silhouette_score": 0.613128501322426,
+      "clustering_quality": "優秀"
     },
     "06": {
       "distribution": {
         "0": 900,
         "1": 900,
         "2": 900,
-        "3": 899
+        "3": 900,
+        "4": 899
       },
-      "entropy": 0.9999999161602808,
+      "entropy": 0.9999999382819836,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 0.8335648791330925,
+      "changepoint_density": 0.8890864636585909,
       "changepoint_status": "正常",
-      "silhouette_score": 0.6395966784829834,
+      "silhouette_score": 0.5349008436122036,
       "clustering_quality": "優秀"
     },
     "07": {
@@ -153,32 +158,37 @@
         "6": 300,
         "7": 300,
         "8": 300,
-        "9": 710,
-        "10": 1090,
-        "11": 300,
-        "12": 300,
+        "9": 600,
+        "10": 300,
+        "11": 380,
+        "12": 520,
         "13": 300,
         "14": 300,
         "15": 300,
-        "16": 300
+        "16": 300,
+        "17": 300,
+        "18": 300
       },
-      "entropy": 0.9615295003337411,
+      "entropy": 0.9913091826687266,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 2.5396825396825395,
-      "changepoint_status": "正常"
+      "changepoint_density": 2.857142857142857,
+      "changepoint_status": "正常",
+      "silhouette_score": 0.19810852024432513,
+      "clustering_quality": "可接受"
     },
     "09": {
       "distribution": {
         "0": 900,
-        "1": 900
+        "1": 900,
+        "2": 900
       },
-      "entropy": 0.9999999997114609,
+      "entropy": 0.9999999997269281,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 0.5555555555555556,
+      "changepoint_density": 0.7407407407407407,
       "changepoint_status": "正常",
-      "silhouette_score": 0.6891310844451984,
+      "silhouette_score": 0.87682699127259,
       "clustering_quality": "優秀"
     },
     "10": {
