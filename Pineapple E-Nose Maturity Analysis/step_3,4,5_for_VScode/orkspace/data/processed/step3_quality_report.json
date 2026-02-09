@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-09T19:18:57.679780",
+  "timestamp": "2026-02-09T20:17:56.690198",
   "total_pineapples": 11,
   "pineapple_reports": {
     "01": {
@@ -90,15 +90,16 @@
         "2": 900,
         "3": 900,
         "4": 600,
-        "5": 300
+        "5": 300,
+        "6": 900
       },
-      "entropy": 0.958367083435999,
+      "entropy": 0.9631138732805153,
       "issues": [],
       "status": "PASS",
-      "changepoint_density": 1.3888888888888888,
+      "changepoint_density": 1.3333333333333333,
       "changepoint_status": "正常",
-      "silhouette_score": 0.613128501322426,
-      "clustering_quality": "優秀"
+      "silhouette_score": 0.45804825252017134,
+      "clustering_quality": "良好"
     },
     "06": {
       "distribution": {
