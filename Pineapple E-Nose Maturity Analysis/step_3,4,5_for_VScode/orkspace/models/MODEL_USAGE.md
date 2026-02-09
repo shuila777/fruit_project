@@ -3,8 +3,8 @@
 ## 模型信息
 - 模型名稱: 混合投票集成
 - LOSO準確率: 76.1%
-- 訓練日期: 2026-02-09 19:38:25
-- 訓練樣本數: 454
+- 訓練日期: 2026-02-09 20:33:09
+- 訓練樣本數: 461
 
 ## 載入模型
 
@@ -16,10 +16,10 @@ with open('models/final_ensemble_model.pkl', 'rb') as f:
 
 ## Top-5 關鍵特徵
 1. all_sensors_mean
-2. MQ135_TGS2602_ratio
-3. MQ135_auc
-4. MQ135_mean
-5. MQ135_max
+2. MQ135_auc
+3. MQ135_TGS2602_ratio
+4. MQ9_mean
+5. TGS2602_mean
 
 ## 性能指標
 - LOSO準確率: 76.1%
