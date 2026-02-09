@@ -1,15 +1,20 @@
 {
-  "generation_time": "2026-02-05 23:36:42",
+  "generation_time": "2026-02-09 16:08:19",
   "overview": {
-    "total_pineapples": 6,
-    "total_measurements": 21,
+    "total_pineapples": 11,
+    "total_measurements": 48,
     "pineapple_ids": [
       "01",
       "02",
       "03",
       "04",
       "05",
-      "06"
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11"
     ]
   },
   "data_quality": {
@@ -34,6 +39,18 @@
         "data_retention_rate": "98.68%",
         "total_outliers": 0
       },
+      "01_20250206": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "01_20250207": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "01_20250208": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
       "02_20250202": {
         "data_retention_rate": "98.68%",
         "total_outliers": 0
@@ -50,6 +67,18 @@
         "data_retention_rate": "98.68%",
         "total_outliers": 0
       },
+      "02_20250206": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "02_20250207": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "02_20250208": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
       "03_20250203": {
         "data_retention_rate": "98.68%",
         "total_outliers": 0
@@ -60,6 +89,22 @@
       },
       "03_20250205": {
         "data_retention_rate": "98.58%",
+        "total_outliers": 0
+      },
+      "03_20250206": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "03_20260207": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "03_20260208": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "03_20260209": {
+        "data_retention_rate": "98.15%",
         "total_outliers": 0
       },
       "04_20250203": {
@@ -74,8 +119,20 @@
         "data_retention_rate": "98.47%",
         "total_outliers": 0
       },
-      "05_20250202": {
-        "data_retention_rate": "98.79%",
+      "04_20250206": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "04_20260207": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "04_20260208": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "04_20260209": {
+        "data_retention_rate": "98.15%",
         "total_outliers": 0
       },
       "05_20250203": {
@@ -86,12 +143,80 @@
         "data_retention_rate": "98.79%",
         "total_outliers": 0
       },
+      "05_20250205": {
+        "data_retention_rate": "98.90%",
+        "total_outliers": 0
+      },
+      "05_20250206": {
+        "data_retention_rate": "98.36%",
+        "total_outliers": 0
+      },
       "06_20250203": {
         "data_retention_rate": "98.79%",
         "total_outliers": 0
       },
       "06_20250204": {
         "data_retention_rate": "98.79%",
+        "total_outliers": 0
+      },
+      "06_20250205": {
+        "data_retention_rate": "98.79%",
+        "total_outliers": 0
+      },
+      "07_20260206": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "07_20260207": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "07_20260208": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "07_20260209": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "08_20260206": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "08_20260207": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "08_20260208": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "08_20260209": {
+        "data_retention_rate": "98.25%",
+        "total_outliers": 0
+      },
+      "09_20260207": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "09_20260208": {
+        "data_retention_rate": "98.68%",
+        "total_outliers": 0
+      },
+      "10_20260208": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "10_20260209": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "11_20260208": {
+        "data_retention_rate": "98.15%",
+        "total_outliers": 0
+      },
+      "11_20260209": {
+        "data_retention_rate": "98.15%",
         "total_outliers": 0
       }
     },
@@ -116,6 +241,18 @@
         "20250205": {
           "data_retention_rate": "98.68%",
           "total_outliers": 0
+        },
+        "20250206": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20250207": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20250208": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
         }
       },
       "02": {
@@ -134,6 +271,18 @@
         "20250205": {
           "data_retention_rate": "98.68%",
           "total_outliers": 0
+        },
+        "20250206": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20250207": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20250208": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
         }
       },
       "03": {
@@ -147,6 +296,18 @@
         },
         "20250205": {
           "data_retention_rate": "98.58%",
+          "total_outliers": 0
+        },
+        "20250206": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260208": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.15%",
           "total_outliers": 0
         }
       },
@@ -162,13 +323,25 @@
         "20250205": {
           "data_retention_rate": "98.58%",
           "total_outliers": 0
+        },
+        "20250206": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20260207": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260208": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
         }
       },
       "05": {
-        "20250202": {
-          "data_retention_rate": "98.79%",
-          "total_outliers": 0
-        },
         "20250203": {
           "data_retention_rate": "98.79%",
           "total_outliers": 0
@@ -176,19 +349,89 @@
         "20250204": {
           "data_retention_rate": "98.79%",
           "total_outliers": 0
-        }
-      },
-      "06": {
-        "20250202": {
+        },
+        "20250205": {
           "data_retention_rate": "98.79%",
           "total_outliers": 0
         },
+        "20260206": {
+          "data_retention_rate": "98.36%",
+          "total_outliers": 0
+        }
+      },
+      "06": {
         "20250203": {
           "data_retention_rate": "98.79%",
           "total_outliers": 0
         },
         "20250204": {
           "data_retention_rate": "98.36%",
+          "total_outliers": 0
+        },
+        "20250205": {
+          "data_retention_rate": "98.36%",
+          "total_outliers": 0
+        }
+      },
+      "07": {
+        "20260206": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        },
+        "20260207": {
+          "data_retention_rate": "98.04%",
+          "total_outliers": 0
+        },
+        "20260208": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        }
+      },
+      "08": {
+        "20260206": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        },
+        "20260208": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.25%",
+          "total_outliers": 0
+        }
+      },
+      "09": {
+        "20260207": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        },
+        "20260208": {
+          "data_retention_rate": "98.68%",
+          "total_outliers": 0
+        }
+      },
+      "10": {
+        "20260208": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        }
+      },
+      "11": {
+        "20260208": {
+          "data_retention_rate": "98.15%",
+          "total_outliers": 0
+        },
+        "20260209": {
+          "data_retention_rate": "98.15%",
           "total_outliers": 0
         }
       }
@@ -356,6 +599,102 @@
           "stability_grade": "A (Excellent)"
         }
       },
+      "01_20250206": {
+        "MQ2_raw": {
+          "mean": 57.91111111111111,
+          "std": 0.7742295958319908,
+          "cv_percent": 1.3369275446062774,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 93.1288888888889,
+          "std": 1.090483094916697,
+          "cv_percent": 1.1709396599993167,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 59.74,
+          "std": 0.4414053802089632,
+          "cv_percent": 0.7388774359038554,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 55.11888888888889,
+          "std": 0.596876266878797,
+          "cv_percent": 1.0828887862416945,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 328.7633333333333,
+          "std": 0.42787989124848635,
+          "cv_percent": 0.1301483005754351,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "01_20250207": {
+        "MQ2_raw": {
+          "mean": 62.19,
+          "std": 0.5193797104705751,
+          "cv_percent": 0.8351498801585063,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 65.81222222222222,
+          "std": 1.0865061492733712,
+          "cv_percent": 1.6509184959666967,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 76.48333333333333,
+          "std": 0.5917019813260963,
+          "cv_percent": 0.7736351902280623,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 95.66777777777777,
+          "std": 1.135759905241082,
+          "cv_percent": 1.1871916873404187,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 332.9422222222222,
+          "std": 0.4798446582565526,
+          "cv_percent": 0.14412250121172088,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "01_20250208": {
+        "MQ2_raw": {
+          "mean": 46.364444444444445,
+          "std": 1.0570291348945022,
+          "cv_percent": 2.2798270259898676,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 23.65222222222222,
+          "std": 0.8332265411735752,
+          "cv_percent": 3.522825607442184,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 32.02111111111111,
+          "std": 0.1585490695033113,
+          "cv_percent": 0.49513918787251526,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 30.997777777777777,
+          "std": 0.0943071187851993,
+          "cv_percent": 0.30423832140898766,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 324.5411111111111,
+          "std": 0.879553234306339,
+          "cv_percent": 0.2710144275081415,
+          "stability_grade": "A (Excellent)"
+        }
+      },
       "02_20250202": {
         "MQ2_raw": {
           "mean": 63.925555555555555,
@@ -484,6 +823,102 @@
           "stability_grade": "A (Excellent)"
         }
       },
+      "02_20250206": {
+        "MQ2_raw": {
+          "mean": 54.70444444444445,
+          "std": 0.687875469094034,
+          "cv_percent": 1.2574398224491825,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 87.39333333333333,
+          "std": 1.0964397841297395,
+          "cv_percent": 1.2546034603666256,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 59.702222222222225,
+          "std": 0.4623723171683174,
+          "cv_percent": 0.7744641655837966,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 53.382222222222225,
+          "std": 0.48620062915008144,
+          "cv_percent": 0.9107912876427302,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 328.78,
+          "std": 0.42245113453256716,
+          "cv_percent": 0.12849052087492158,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "02_20250207": {
+        "MQ2_raw": {
+          "mean": 46.94555555555556,
+          "std": 0.8699227218323491,
+          "cv_percent": 1.8530459625786706,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 78.37222222222222,
+          "std": 1.271010544304233,
+          "cv_percent": 1.6217615224694262,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 64.64888888888889,
+          "std": 0.8431157380920866,
+          "cv_percent": 1.3041457518955004,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 83.77444444444444,
+          "std": 1.3844890883796428,
+          "cv_percent": 1.6526389372808976,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 330.4188888888889,
+          "std": 0.8906128227792789,
+          "cv_percent": 0.2695405295303104,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "02_20250208": {
+        "MQ2_raw": {
+          "mean": 33.51888888888889,
+          "std": 0.49992089350733404,
+          "cv_percent": 1.4914602186382493,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 23.04,
+          "std": 0.37222835576032565,
+          "cv_percent": 1.6155744607653024,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 33.07333333333333,
+          "std": 0.28134430195094934,
+          "cv_percent": 0.8506681171667487,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 32.61555555555555,
+          "std": 0.4867341646905414,
+          "cv_percent": 1.49233749479283,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 328.1566666666667,
+          "std": 0.4727384544054327,
+          "cv_percent": 0.14405876900426606,
+          "stability_grade": "A (Excellent)"
+        }
+      },
       "03_20250203": {
         "MQ2_raw": {
           "mean": 108.46777777777778,
@@ -577,6 +1012,134 @@
           "mean": 55.02777777777778,
           "std": 0.6950528789316575,
           "cv_percent": 1.2630945805926133,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "03_20250206": {
+        "MQ2_raw": {
+          "mean": 120.33555555555556,
+          "std": 1.2383662055220632,
+          "cv_percent": 1.0290941856751092,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 247.76,
+          "std": 4.963735003355564,
+          "cv_percent": 2.003444867353715,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 109.87,
+          "std": 2.799131837442019,
+          "cv_percent": 2.5476761968162545,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 87.67666666666666,
+          "std": 1.8427955500752342,
+          "cv_percent": 2.101808405971069,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 65.7611111111111,
+          "std": 2.395685519613628,
+          "cv_percent": 3.643012532993605,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "03_20260207": {
+        "MQ2_raw": {
+          "mean": 118.83222222222223,
+          "std": 1.734831146013523,
+          "cv_percent": 1.4598996076748456,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 243.95333333333335,
+          "std": 5.0804473715406635,
+          "cv_percent": 2.082548863802092,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 108.87222222222222,
+          "std": 3.4438618083823007,
+          "cv_percent": 3.1632143976568563,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 87.30444444444444,
+          "std": 2.205913334618281,
+          "cv_percent": 2.526690764319562,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 63.83777777777778,
+          "std": 2.807964906093896,
+          "cv_percent": 4.398594380695002,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "03_20260208": {
+        "MQ2_raw": {
+          "mean": 112.11777777777777,
+          "std": 0.7874965300384772,
+          "cv_percent": 0.7023832844772654,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 208.4711111111111,
+          "std": 2.1656250883372437,
+          "cv_percent": 1.0388130407109535,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 94.16555555555556,
+          "std": 1.345007752177428,
+          "cv_percent": 1.4283436700842314,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 78.07,
+          "std": 0.792477143043849,
+          "cv_percent": 1.015085363191814,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 58.92888888888889,
+          "std": 0.8083607115149151,
+          "cv_percent": 1.3717562417290587,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "03_20260209": {
+        "MQ2_raw": {
+          "mean": 127.90444444444445,
+          "std": 1.118050017796121,
+          "cv_percent": 0.8741291380861658,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 180.54111111111112,
+          "std": 1.813151463648927,
+          "cv_percent": 1.00428730746708,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 96.9588888888889,
+          "std": 1.4573960386411924,
+          "cv_percent": 1.503107198671915,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 83.83555555555556,
+          "std": 1.200510746990566,
+          "cv_percent": 1.4319828133005215,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 105.28333333333333,
+          "std": 1.5474511678228946,
+          "cv_percent": 1.4697968983595644,
           "stability_grade": "A (Excellent)"
         }
       },
@@ -676,35 +1239,131 @@
           "stability_grade": "A (Excellent)"
         }
       },
-      "05_20250202": {
+      "04_20250206": {
         "MQ2_raw": {
-          "mean": 191.9988888888889,
-          "std": 2.0388329255803073,
-          "cv_percent": 1.0618982939845,
+          "mean": 105.42444444444445,
+          "std": 0.4945332089927709,
+          "cv_percent": 0.4690878017890578,
           "stability_grade": "A (Excellent)"
         },
         "MQ3_raw": {
-          "mean": 35.11888888888889,
-          "std": 0.8634713349389648,
-          "cv_percent": 2.458709151279996,
+          "mean": 153.27333333333334,
+          "std": 1.4285971712284131,
+          "cv_percent": 0.932058525876482,
           "stability_grade": "A (Excellent)"
         },
         "MQ9_raw": {
-          "mean": 246.10222222222222,
-          "std": 2.8938574729991235,
-          "cv_percent": 1.1758762057768277,
+          "mean": 88.16555555555556,
+          "std": 0.6260317155003096,
+          "cv_percent": 0.7100638243081558,
           "stability_grade": "A (Excellent)"
         },
         "MQ135_raw": {
-          "mean": 259.75333333333333,
-          "std": 3.4069940495747275,
-          "cv_percent": 1.3116266905428462,
+          "mean": 64.28777777777778,
+          "std": 0.45786363164002614,
+          "cv_percent": 0.7122094548402557,
           "stability_grade": "A (Excellent)"
         },
         "TGS2602_raw": {
-          "mean": 209.6,
-          "std": 0.815587847667942,
-          "cv_percent": 0.38911633953623187,
+          "mean": 31.44,
+          "std": 0.496662946386865,
+          "cv_percent": 1.5797167505943541,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "04_20260207": {
+        "MQ2_raw": {
+          "mean": 111.76777777777778,
+          "std": 0.45542772321635505,
+          "cv_percent": 0.4074767632240653,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 203.77333333333334,
+          "std": 2.9968021517642245,
+          "cv_percent": 1.4706547234333365,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 90.53222222222222,
+          "std": 1.0377017235874306,
+          "cv_percent": 1.1462236296821116,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 76.53888888888889,
+          "std": 0.6218481272091749,
+          "cv_percent": 0.8124603534706503,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 51.772222222222226,
+          "std": 0.6260080240893081,
+          "cv_percent": 1.2091581106993825,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "04_20260208": {
+        "MQ2_raw": {
+          "mean": 107.49333333333334,
+          "std": 0.5046612538030834,
+          "cv_percent": 0.46948144424747273,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 188.46666666666667,
+          "std": 1.6675933649126753,
+          "cv_percent": 0.8848213821609526,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 84.00444444444445,
+          "std": 0.8142107025213796,
+          "cv_percent": 0.9692471724634169,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 72.68444444444444,
+          "std": 0.593234213681901,
+          "cv_percent": 0.8161776817807738,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 54.54555555555555,
+          "std": 0.4981972196406202,
+          "cv_percent": 0.9133598779339558,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "04_20260209": {
+        "MQ2_raw": {
+          "mean": 120.67888888888889,
+          "std": 0.7369169525679803,
+          "cv_percent": 0.6106428053430889,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 170.83555555555554,
+          "std": 0.8513956494904857,
+          "cv_percent": 0.4983714582844042,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 87.63,
+          "std": 0.8631563775740928,
+          "cv_percent": 0.9850010014539459,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 77.39111111111112,
+          "std": 0.6504288727083091,
+          "cv_percent": 0.8404439003007497,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 97.73444444444445,
+          "std": 0.9640548762773345,
+          "cv_percent": 0.9864023699703289,
           "stability_grade": "A (Excellent)"
         }
       },
@@ -772,6 +1431,70 @@
           "stability_grade": "A (Excellent)"
         }
       },
+      "05_20250205": {
+        "MQ2_raw": {
+          "mean": 203.05,
+          "std": 0.21806612869719894,
+          "cv_percent": 0.10739528623353801,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 80.23222222222222,
+          "std": 0.4224847780864357,
+          "cv_percent": 0.5265774353304881,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 256.67555555555555,
+          "std": 0.5349438050412131,
+          "cv_percent": 0.2084124465547045,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 244.41333333333333,
+          "std": 0.4927054096411518,
+          "cv_percent": 0.20158696046634872,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 216.24777777777777,
+          "std": 0.46900073115481894,
+          "cv_percent": 0.2168811795313694,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "05_20250206": {
+        "MQ2_raw": {
+          "mean": 201.44333333333333,
+          "std": 0.5059270502752571,
+          "cv_percent": 0.25115105171442276,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 44.87111111111111,
+          "std": 0.3385648059032671,
+          "cv_percent": 0.7545273507154824,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 278.3088888888889,
+          "std": 1.564387063418869,
+          "cv_percent": 0.562104598837815,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 281.2811111111111,
+          "std": 3.1322142780347746,
+          "cv_percent": 1.1135530095362478,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 187.21444444444444,
+          "std": 0.41604662802104003,
+          "cv_percent": 0.22222998297788987,
+          "stability_grade": "A (Excellent)"
+        }
+      },
       "06_20250203": {
         "MQ2_raw": {
           "mean": 177.23,
@@ -833,6 +1556,486 @@
           "mean": 211.4388888888889,
           "std": 0.4965273051164851,
           "cv_percent": 0.23483253611752097,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "06_20250205": {
+        "MQ2_raw": {
+          "mean": 182.99444444444444,
+          "std": 3.190463442336849,
+          "cv_percent": 1.7434755749131208,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 40.25555555555555,
+          "std": 0.9889389501825852,
+          "cv_percent": 2.456652098162646,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 271.8822222222222,
+          "std": 3.723107585763198,
+          "cv_percent": 1.36938250516436,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 260.46444444444444,
+          "std": 3.1958437661019725,
+          "cv_percent": 1.2269788964549544,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 204.83,
+          "std": 0.6645228786766945,
+          "cv_percent": 0.32442653843513863,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "07_20260206": {
+        "MQ2_raw": {
+          "mean": 132.26444444444445,
+          "std": 4.027583180532621,
+          "cv_percent": 3.045098928476082,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 232.15222222222224,
+          "std": 5.295300407170046,
+          "cv_percent": 2.2809604648544974,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 446.6322222222222,
+          "std": 24.941561633641864,
+          "cv_percent": 5.584362343931418,
+          "stability_grade": "B (Good)"
+        },
+        "MQ135_raw": {
+          "mean": 146.9322222222222,
+          "std": 4.35556304371309,
+          "cv_percent": 2.9643348326452723,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 222.80444444444444,
+          "std": 34.8845160124349,
+          "cv_percent": 15.657010837202234,
+          "stability_grade": "C (Fair)"
+        }
+      },
+      "07_20260207": {
+        "MQ2_raw": {
+          "mean": 128.29,
+          "std": 3.758758403861366,
+          "cv_percent": 2.9298919665300227,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 225.70333333333335,
+          "std": 3.3160864533305188,
+          "cv_percent": 1.4692235175955983,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 455.9422222222222,
+          "std": 17.91572769180701,
+          "cv_percent": 3.9293855270712443,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 140.4611111111111,
+          "std": 3.2609256567606364,
+          "cv_percent": 2.321586118011765,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 294.09444444444443,
+          "std": 36.92111923890468,
+          "cv_percent": 12.554170925822852,
+          "stability_grade": "C (Fair)"
+        }
+      },
+      "07_20260208": {
+        "MQ2_raw": {
+          "mean": 119.01333333333334,
+          "std": 2.9040725498618243,
+          "cv_percent": 2.440123697508815,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 199.14444444444445,
+          "std": 5.97819752358083,
+          "cv_percent": 3.001940395705377,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 399.43444444444447,
+          "std": 15.095289920295594,
+          "cv_percent": 3.7791658006086477,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 132.69222222222223,
+          "std": 3.648600620945381,
+          "cv_percent": 2.749671804301385,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 271.29555555555555,
+          "std": 33.27465810984806,
+          "cv_percent": 12.26509518068169,
+          "stability_grade": "C (Fair)"
+        }
+      },
+      "07_20260209": {
+        "MQ2_raw": {
+          "mean": 119.88333333333334,
+          "std": 3.1387544910813983,
+          "cv_percent": 2.6181741896967035,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 189.79888888888888,
+          "std": 6.015792979414921,
+          "cv_percent": 3.169561747506676,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 402.8822222222222,
+          "std": 14.958359538533763,
+          "cv_percent": 3.712836832567662,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 131.97333333333333,
+          "std": 3.409298284723089,
+          "cv_percent": 2.5833236144092915,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 308.1644444444444,
+          "std": 36.505651386012055,
+          "cv_percent": 11.846159426933257,
+          "stability_grade": "C (Fair)"
+        }
+      },
+      "08_20260206": {
+        "MQ2_raw": {
+          "mean": 117.40333333333334,
+          "std": 0.6608300305333645,
+          "cv_percent": 0.562871608301892,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 190.15333333333334,
+          "std": 2.115896715319509,
+          "cv_percent": 1.1127318560387278,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 373.54333333333335,
+          "std": 2.0070260346824638,
+          "cv_percent": 0.5372940313972846,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 128.4311111111111,
+          "std": 0.7017607672953036,
+          "cv_percent": 0.5464102593398737,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 122.85111111111111,
+          "std": 2.4725520784695387,
+          "cv_percent": 2.012641201293874,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "08_20260207": {
+        "MQ2_raw": {
+          "mean": 111.97333333333333,
+          "std": 0.4391315121729648,
+          "cv_percent": 0.3921750823168893,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 175.34777777777776,
+          "std": 2.000040476663701,
+          "cv_percent": 1.1406135293019786,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 395.3888888888889,
+          "std": 0.5355949452444453,
+          "cv_percent": 0.13546029246030653,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 121.86666666666666,
+          "std": 0.6948083337796512,
+          "cv_percent": 0.5701381294690793,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 142.09555555555556,
+          "std": 2.7372481618755384,
+          "cv_percent": 1.9263432632876034,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "08_20260208": {
+        "MQ2_raw": {
+          "mean": 109.38777777777777,
+          "std": 0.6055596658964115,
+          "cv_percent": 0.5535898783195059,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 166.13888888888889,
+          "std": 2.3469002795202254,
+          "cv_percent": 1.4126134436169222,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 362.8722222222222,
+          "std": 1.2631094793372015,
+          "cv_percent": 0.3480865720726553,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 119.30888888888889,
+          "std": 0.9398653779590961,
+          "cv_percent": 0.7877580511493849,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 163.41,
+          "std": 4.141774216398305,
+          "cv_percent": 2.5345904267782298,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "08_20260209": {
+        "MQ2_raw": {
+          "mean": 109.08666666666667,
+          "std": 0.4893072445129075,
+          "cv_percent": 0.44854908437900215,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 157.53333333333333,
+          "std": 1.5564998811007085,
+          "cv_percent": 0.9880447827554222,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 366.02222222222224,
+          "std": 0.8261275407783177,
+          "cv_percent": 0.22570420335756355,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 119.02888888888889,
+          "std": 0.7816363492851338,
+          "cv_percent": 0.6566778507146915,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 179.57111111111112,
+          "std": 3.2470486109304164,
+          "cv_percent": 1.8082243802129607,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "09_20260207": {
+        "MQ2_raw": {
+          "mean": 34.154444444444444,
+          "std": 0.36157519402863275,
+          "cv_percent": 1.05864756376515,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 64.71777777777778,
+          "std": 0.6487050123546222,
+          "cv_percent": 1.002359837789994,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 39.208888888888886,
+          "std": 0.667644814492796,
+          "cv_percent": 1.702789427123998,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 45.41777777777778,
+          "std": 0.5219493234786469,
+          "cv_percent": 1.1492181014061604,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 331.6722222222222,
+          "std": 0.47202679402507697,
+          "cv_percent": 0.14231725251589397,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "09_20260208": {
+        "MQ2_raw": {
+          "mean": 66.31111111111112,
+          "std": 1.436412262500936,
+          "cv_percent": 2.166171307390821,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 34.62111111111111,
+          "std": 0.688212277513114,
+          "cv_percent": 1.9878399491697503,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 32.06666666666667,
+          "std": 0.24958252127842898,
+          "cv_percent": 0.7783238709306516,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 33.96888888888889,
+          "std": 0.18000398243304586,
+          "cv_percent": 0.5299083612120282,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 331.50555555555553,
+          "std": 0.5112442261352622,
+          "cv_percent": 0.15421890148371437,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "10_20260208": {
+        "MQ2_raw": {
+          "mean": 104.7088888888889,
+          "std": 0.47370089182451197,
+          "cv_percent": 0.45239797389806746,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 166.52,
+          "std": 0.8990416353367432,
+          "cv_percent": 0.5399000932841359,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 77.38,
+          "std": 0.4856563280402277,
+          "cv_percent": 0.6276251331613178,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 69.45222222222222,
+          "std": 0.4979887865617243,
+          "cv_percent": 0.7170235460117297,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 58.72666666666667,
+          "std": 0.6693346687393521,
+          "cv_percent": 1.1397457181394348,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "10_20260209": {
+        "MQ2_raw": {
+          "mean": 115.96111111111111,
+          "std": 0.19343763568018632,
+          "cv_percent": 0.166812506215846,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 164.52444444444444,
+          "std": 0.5041123678767447,
+          "cv_percent": 0.30640575604372894,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 82.91,
+          "std": 0.4736787138086972,
+          "cv_percent": 0.571316745638279,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 74.45555555555555,
+          "std": 0.49829768300921234,
+          "cv_percent": 0.6692552077425625,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 101.97,
+          "std": 0.29111805494204057,
+          "cv_percent": 0.2854938265588316,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "11_20260208": {
+        "MQ2_raw": {
+          "mean": 105.69111111111111,
+          "std": 0.4622921189177326,
+          "cv_percent": 0.4373992420533203,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 158.45222222222222,
+          "std": 0.8741406430313621,
+          "cv_percent": 0.5516745873121417,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 74.37444444444445,
+          "std": 0.4842482359013307,
+          "cv_percent": 0.6510949285316008,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 68.9,
+          "std": 0.3001668056842816,
+          "cv_percent": 0.4356557411963448,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 65.3488888888889,
+          "std": 1.1980930755471209,
+          "cv_percent": 1.8333794130520091,
+          "stability_grade": "A (Excellent)"
+        }
+      },
+      "11_20260209": {
+        "MQ2_raw": {
+          "mean": 113.94111111111111,
+          "std": 0.2623562456926392,
+          "cv_percent": 0.23025600078342154,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ3_raw": {
+          "mean": 161.06,
+          "std": 0.34782016244893954,
+          "cv_percent": 0.21595688715319727,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ9_raw": {
+          "mean": 79.81222222222222,
+          "std": 0.4047349831984439,
+          "cv_percent": 0.5071090265743197,
+          "stability_grade": "A (Excellent)"
+        },
+        "MQ135_raw": {
+          "mean": 72.69111111111111,
+          "std": 0.4670796414130766,
+          "cv_percent": 0.6425539990702958,
+          "stability_grade": "A (Excellent)"
+        },
+        "TGS2602_raw": {
+          "mean": 101.02333333333333,
+          "std": 0.3207853266694903,
+          "cv_percent": 0.31753587620301277,
           "stability_grade": "A (Excellent)"
         }
       }
@@ -998,6 +2201,102 @@
             "cv_percent": 0.11113569876510043,
             "stability_grade": "A (Excellent)"
           }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "mean": 60.66888888888889,
+            "std": 1.0189139504215328,
+            "cv_percent": 1.679466970769165,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 99.56222222222222,
+            "std": 1.5951524018938068,
+            "cv_percent": 1.6021663300498028,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 59.33222222222222,
+            "std": 0.47127209992119523,
+            "cv_percent": 0.7942936945056569,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 56.16222222222222,
+            "std": 0.9184280444980591,
+            "cv_percent": 1.635312863625714,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 327.1066666666667,
+            "std": 0.30886062099846834,
+            "cv_percent": 0.09442198905508957,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250207": {
+          "MQ2_raw": {
+            "mean": 71.19555555555556,
+            "std": 0.39684829285784373,
+            "cv_percent": 0.5574059922155867,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 63.76888888888889,
+            "std": 0.9121164919410482,
+            "cv_percent": 1.430347161184387,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 76.28,
+            "std": 0.4517177694869887,
+            "cv_percent": 0.5921837565377408,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 89.04777777777778,
+            "std": 0.48440134900086196,
+            "cv_percent": 0.5439791548866099,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 335.1188888888889,
+            "std": 0.3806774724486724,
+            "cv_percent": 0.11359475251032145,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250208": {
+          "MQ2_raw": {
+            "mean": 45.93888888888889,
+            "std": 0.2575638605410871,
+            "cv_percent": 0.560666282469412,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 27.50111111111111,
+            "std": 0.5002767742179332,
+            "cv_percent": 1.8191147702967148,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 33.053333333333335,
+            "std": 0.22971666060644788,
+            "cv_percent": 0.6949878800114397,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 33.172222222222224,
+            "std": 0.3777834121734436,
+            "cv_percent": 1.138854700908053,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 328.5988888888889,
+            "std": 0.5211851055293915,
+            "cv_percent": 0.1586082981874059,
+            "stability_grade": "A (Excellent)"
+          }
         }
       },
       "02": {
@@ -1128,6 +2427,102 @@
             "cv_percent": 0.1276974500041663,
             "stability_grade": "A (Excellent)"
           }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "mean": 69.98444444444445,
+            "std": 0.7366024144975555,
+            "cv_percent": 1.052523057580732,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 73.99444444444444,
+            "std": 0.8967697699350907,
+            "cv_percent": 1.211942027091496,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 59.638888888888886,
+            "std": 0.6342459712489174,
+            "cv_percent": 1.0634771758249197,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 49.553333333333335,
+            "std": 0.7031155836101641,
+            "cv_percent": 1.4189067340444588,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 334.15222222222224,
+            "std": 0.35943590020709026,
+            "cv_percent": 0.1075665149903009,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250207": {
+          "MQ2_raw": {
+            "mean": 69.83555555555556,
+            "std": 0.879669155007529,
+            "cv_percent": 1.2596293507076561,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 70.9888888888889,
+            "std": 1.321461795877266,
+            "cv_percent": 1.8615051123642816,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 74.65444444444445,
+            "std": 0.8261118319379513,
+            "cv_percent": 1.106580911673274,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 91.99222222222222,
+            "std": 0.8664719840663744,
+            "cv_percent": 0.9418970029588697,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 330.5077777777778,
+            "std": 0.8992306410985424,
+            "cv_percent": 0.2720754855285598,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250208": {
+          "MQ2_raw": {
+            "mean": 61.58777777777778,
+            "std": 0.494761833643877,
+            "cv_percent": 0.8033441885646309,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 22.64666666666667,
+            "std": 0.47827089377352167,
+            "cv_percent": 2.111882074360561,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 32.995555555555555,
+            "std": 0.06655533900758107,
+            "cv_percent": 0.20171001180907516,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 32.026666666666664,
+            "std": 0.161196858348009,
+            "cv_percent": 0.5033207483805444,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 328.28222222222223,
+            "std": 0.47905584232091053,
+            "cv_percent": 0.14592804906646026,
+            "stability_grade": "A (Excellent)"
+          }
         }
       },
       "03": {
@@ -1224,6 +2619,102 @@
             "mean": 53.63777777777778,
             "std": 0.4832172900983637,
             "cv_percent": 0.9008898394343277,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "mean": 115.83666666666667,
+            "std": 0.4751792589564284,
+            "cv_percent": 0.41021489363450975,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 221.1611111111111,
+            "std": 3.4385821910868613,
+            "cv_percent": 1.554786089566769,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 98.57111111111111,
+            "std": 1.3704528975785786,
+            "cv_percent": 1.3903190114533452,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 80.96111111111111,
+            "std": 0.8275289138904343,
+            "cv_percent": 1.0221313696581225,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 59.76111111111111,
+            "std": 1.043886215233593,
+            "cv_percent": 1.7467650715073602,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 109.93,
+            "std": 0.5237305219497924,
+            "cv_percent": 0.4764218338486241,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 199.0811111111111,
+            "std": 2.1274933390146256,
+            "cv_percent": 1.0686565526687408,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 88.88222222222223,
+            "std": 1.0491352207450366,
+            "cv_percent": 1.1803656507619733,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 75.43,
+            "std": 0.6100657343454633,
+            "cv_percent": 0.808783951140744,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 56.675555555555555,
+            "std": 1.0987211811192452,
+            "cv_percent": 1.938615634816736,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 123.61888888888889,
+            "std": 0.5148289227269418,
+            "cv_percent": 0.4164646093767112,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 174.7811111111111,
+            "std": 0.9915543740150373,
+            "cv_percent": 0.5673120897971009,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 91.25888888888889,
+            "std": 0.9829915571528027,
+            "cv_percent": 1.0771460940639237,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 79.61777777777777,
+            "std": 0.6741001958410011,
+            "cv_percent": 0.8466704480530605,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 99.48333333333333,
+            "std": 1.1729003439796901,
+            "cv_percent": 1.1789918016214007,
             "stability_grade": "A (Excellent)"
           }
         }
@@ -1324,41 +2815,137 @@
             "cv_percent": 1.4055910829300473,
             "stability_grade": "A (Excellent)"
           }
-        }
-      },
-      "05": {
-        "20250202": {
+        },
+        "20250206": {
           "MQ2_raw": {
-            "mean": 190.4488888888889,
-            "std": 1.140150493007926,
-            "cv_percent": 0.598664817452996,
+            "mean": 105.42444444444445,
+            "std": 0.4945332089927709,
+            "cv_percent": 0.4690878017890578,
             "stability_grade": "A (Excellent)"
           },
           "MQ3_raw": {
-            "mean": 33.52333333333333,
-            "std": 0.49973296539997514,
-            "cv_percent": 1.4907018953961673,
+            "mean": 153.27333333333334,
+            "std": 1.4285971712284131,
+            "cv_percent": 0.932058525876482,
             "stability_grade": "A (Excellent)"
           },
           "MQ9_raw": {
-            "mean": 244.49555555555557,
-            "std": 1.9930307445281135,
-            "cv_percent": 0.8151603165135026,
+            "mean": 88.16555555555556,
+            "std": 0.6260317155003096,
+            "cv_percent": 0.7100638243081558,
             "stability_grade": "A (Excellent)"
           },
           "MQ135_raw": {
-            "mean": 254.02555555555554,
-            "std": 1.7254272647886049,
-            "cv_percent": 0.679233733399415,
+            "mean": 64.28777777777778,
+            "std": 0.45786363164002614,
+            "cv_percent": 0.7122094548402557,
             "stability_grade": "A (Excellent)"
           },
           "TGS2602_raw": {
-            "mean": 211.61333333333334,
-            "std": 1.3901928868016498,
-            "cv_percent": 0.6569495716093738,
+            "mean": 31.44,
+            "std": 0.496662946386865,
+            "cv_percent": 1.5797167505943541,
             "stability_grade": "A (Excellent)"
           }
         },
+        "20260207": {
+          "MQ2_raw": {
+            "mean": 111.88777777777777,
+            "std": 0.38846773459090916,
+            "cv_percent": 0.34719407455070883,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 190.10222222222222,
+            "std": 2.492836356142238,
+            "cv_percent": 1.3113136327402883,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 86.78666666666666,
+            "std": 0.7714597635988917,
+            "cv_percent": 0.8889150755863708,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 74.7611111111111,
+            "std": 0.5517077228431874,
+            "cv_percent": 0.737960839056058,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 51.02111111111111,
+            "std": 0.25530824765850607,
+            "cv_percent": 0.5003972710482708,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 108.77666666666667,
+            "std": 0.4970547291616688,
+            "cv_percent": 0.45694977093280004,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 180.31222222222223,
+            "std": 2.0595326412281665,
+            "cv_percent": 1.1422035710313283,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 82.00666666666666,
+            "std": 0.6915668721088676,
+            "cv_percent": 0.8433056728422905,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 72.10444444444444,
+            "std": 0.36562869228957706,
+            "cv_percent": 0.5070820461993703,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 55.714444444444446,
+            "std": 0.45192976683498776,
+            "cv_percent": 0.8111536807759587,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 112.72333333333333,
+            "std": 0.7428637130098532,
+            "cv_percent": 0.659015033571742,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 164.97333333333333,
+            "std": 0.8380283019849017,
+            "cv_percent": 0.5079780380576063,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 82.80222222222223,
+            "std": 0.5386048342430918,
+            "cv_percent": 0.6504714726104809,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 74.29444444444445,
+            "std": 0.45604605057733827,
+            "cv_percent": 0.6138360061610774,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 96.49333333333334,
+            "std": 0.8270725139129581,
+            "cv_percent": 0.8571291770550209,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "05": {
         "20250203": {
           "MQ2_raw": {
             "mean": 188.36111111111111,
@@ -1422,41 +3009,73 @@
             "cv_percent": 0.29288666127789464,
             "stability_grade": "A (Excellent)"
           }
-        }
-      },
-      "06": {
-        "20250202": {
+        },
+        "20250205": {
           "MQ2_raw": {
-            "mean": 182.70111111111112,
-            "std": 0.49983188373791115,
-            "cv_percent": 0.2735790060050234,
+            "mean": 201.51555555555555,
+            "std": 1.3794867023579638,
+            "cv_percent": 0.6845559384013186,
             "stability_grade": "A (Excellent)"
           },
           "MQ3_raw": {
-            "mean": 31.406666666666666,
-            "std": 0.4982282290144491,
-            "cv_percent": 1.5863772946755967,
+            "mean": 77.47777777777777,
+            "std": 1.17942858449971,
+            "cv_percent": 1.5222798308471808,
             "stability_grade": "A (Excellent)"
           },
           "MQ9_raw": {
-            "mean": 239.2488888888889,
-            "std": 1.2969755563886822,
-            "cv_percent": 0.5421030636388948,
+            "mean": 258.71666666666664,
+            "std": 2.302668085386423,
+            "cv_percent": 0.8900346912528853,
             "stability_grade": "A (Excellent)"
           },
           "MQ135_raw": {
-            "mean": 243.37444444444444,
-            "std": 0.7827479490543919,
-            "cv_percent": 0.3216229012216898,
+            "mean": 243.59222222222223,
+            "std": 1.8088109515535389,
+            "cv_percent": 0.7425569400583785,
             "stability_grade": "A (Excellent)"
           },
           "TGS2602_raw": {
-            "mean": 207.18666666666667,
-            "std": 0.3898603611853631,
-            "cv_percent": 0.18816865363860116,
+            "mean": 216.95555555555555,
+            "std": 0.5212100046912339,
+            "cv_percent": 0.24023814617541253,
             "stability_grade": "A (Excellent)"
           }
         },
+        "20260206": {
+          "MQ2_raw": {
+            "mean": 203.2277777777778,
+            "std": 0.5339482458116047,
+            "cv_percent": 0.262733889850165,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 44.24333333333333,
+            "std": 0.4319163392810361,
+            "cv_percent": 0.9762292005146601,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 278.4288888888889,
+            "std": 1.2292544965258496,
+            "cv_percent": 0.4414967503664469,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 279.8566666666667,
+            "std": 1.1184119919599096,
+            "cv_percent": 0.39963743057514306,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 186.6811111111111,
+            "std": 0.49184550520336456,
+            "cv_percent": 0.2634682760756775,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "06": {
         "20250203": {
           "MQ2_raw": {
             "mean": 174.77555555555554,
@@ -1518,6 +3137,464 @@
             "mean": 208.8088888888889,
             "std": 0.44637819338964463,
             "cv_percent": 0.21377355904957226,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20250205": {
+          "MQ2_raw": {
+            "mean": 175.76418242491658,
+            "std": 0.5913318496741927,
+            "cv_percent": 0.3364347852423229,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 37.004449388209125,
+            "std": 0.18871916906908043,
+            "cv_percent": 0.5099904800345787,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 265.1790878754171,
+            "std": 1.8223332568306012,
+            "cv_percent": 0.687208509325119,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 253.18576195773082,
+            "std": 1.0946202487300303,
+            "cv_percent": 0.4323387856670931,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 204.8031145717464,
+            "std": 0.5742733175119109,
+            "cv_percent": 0.28040262898967394,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "07": {
+        "20260206": {
+          "MQ2_raw": {
+            "mean": 121.08222222222223,
+            "std": 1.2034043088422552,
+            "cv_percent": 0.9938736560629413,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 206.35888888888888,
+            "std": 4.345618903952101,
+            "cv_percent": 2.1058549633362,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 387.1511111111111,
+            "std": 4.704321834797142,
+            "cv_percent": 1.2151125748537546,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 133.02777777777777,
+            "std": 1.394533087168431,
+            "cv_percent": 1.0483021745262793,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 143.03333333333333,
+            "std": 6.601900828511395,
+            "cv_percent": 4.615637959807548,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260207": {
+          "MQ2_raw": {
+            "mean": 113.16462736373748,
+            "std": 0.490028804851784,
+            "cv_percent": 0.4330229474239483,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 185.98998887652948,
+            "std": 1.834132548311574,
+            "cv_percent": 0.9861458454783679,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 398.45717463848723,
+            "std": 1.6775410282728422,
+            "cv_percent": 0.4210091159218915,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 124.39488320355952,
+            "std": 0.5491605891841758,
+            "cv_percent": 0.44146557723401736,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 157.91657397107898,
+            "std": 3.690224105771077,
+            "cv_percent": 2.336818747376643,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 111.41333333333333,
+            "std": 0.8762342320213027,
+            "cv_percent": 0.7864716060507145,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 176.94666666666666,
+            "std": 3.37619751753646,
+            "cv_percent": 1.9080311492369415,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 369.1922222222222,
+            "std": 2.296136319402864,
+            "cv_percent": 0.6219351820528836,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 122.34555555555555,
+            "std": 1.1599222396466686,
+            "cv_percent": 0.9480705975624613,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 189.2122222222222,
+            "std": 8.106388364731952,
+            "cv_percent": 4.2842836839637775,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 111.8,
+            "std": 0.8748112779159024,
+            "cv_percent": 0.7824787816779092,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 169.79111111111112,
+            "std": 2.615672982031758,
+            "cv_percent": 1.5405240974717838,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 373.43333333333334,
+            "std": 2.224597050163266,
+            "cv_percent": 0.5957146434428099,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 122.96444444444444,
+            "std": 0.8010436894831385,
+            "cv_percent": 0.6514433445393653,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 213.34444444444443,
+            "std": 8.692831500195563,
+            "cv_percent": 4.074552549438054,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "08": {
+        "20260206": {
+          "MQ2_raw": {
+            "mean": 113.63777777777777,
+            "std": 0.5100934019419715,
+            "cv_percent": 0.4488766076889281,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 174.73222222222222,
+            "std": 1.4112473500175837,
+            "cv_percent": 0.8076629096050626,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 364.9288888888889,
+            "std": 1.8369126081004894,
+            "cv_percent": 0.5033617956894009,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 123.81666666666666,
+            "std": 0.47489826789517053,
+            "cv_percent": 0.38354955005667296,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 110.14666666666666,
+            "std": 0.8940789034815234,
+            "cv_percent": 0.8117167142127377,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 107.37222222222222,
+            "std": 0.5191607366446016,
+            "cv_percent": 0.4835149407359046,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 155.37222222222223,
+            "std": 1.7843422170222227,
+            "cv_percent": 1.1484306470626098,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 361.00888888888886,
+            "std": 0.704292329279675,
+            "cv_percent": 0.19509002436126766,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 116.6511111111111,
+            "std": 0.5340975244429773,
+            "cv_percent": 0.457858925950774,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 147.2488888888889,
+            "std": 2.2472944774048895,
+            "cv_percent": 1.5261877317802062,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 108.06,
+            "std": 0.43582609220580865,
+            "cv_percent": 0.40331861207274533,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 150.57111111111112,
+            "std": 1.1831449243440082,
+            "cv_percent": 0.7857715305500593,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 368.5177777777778,
+            "std": 0.9953817471917206,
+            "cv_percent": 0.27010413261309524,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 117.71,
+            "std": 0.5613724640392821,
+            "cv_percent": 0.47691144680934683,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 163.87222222222223,
+            "std": 2.0608932358149366,
+            "cv_percent": 1.2576220715553736,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "09": {
+        "20260207": {
+          "MQ2_raw": {
+            "mean": 36.25888888888889,
+            "std": 0.5195605322830217,
+            "cv_percent": 1.432919066756717,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 75.97444444444444,
+            "std": 1.7292910138849535,
+            "cv_percent": 2.2761482845056937,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 36.91111111111111,
+            "std": 0.28474153314812134,
+            "cv_percent": 0.7714249844470475,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 46.04555555555555,
+            "std": 0.461091491989035,
+            "cv_percent": 1.001381102748803,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 332.0177777777778,
+            "std": 0.13221630722860814,
+            "cv_percent": 0.03982205655177344,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 61.827777777777776,
+            "std": 2.6481268287974076,
+            "cv_percent": 4.283069720401953,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 31.0,
+            "std": 0.0,
+            "cv_percent": 0.0,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 32.275555555555556,
+            "std": 0.4470422164572594,
+            "cv_percent": 1.3850798499433126,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 33.20777777777778,
+            "std": 0.4059424491607786,
+            "cv_percent": 1.2224318407491577,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 330.71555555555557,
+            "std": 0.5431156996497444,
+            "cv_percent": 0.16422441899879384,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "10": {
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 105.95666666666666,
+            "std": 0.2435143144808194,
+            "cv_percent": 0.22982443874617237,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 163.3111111111111,
+            "std": 0.8586981434386163,
+            "cv_percent": 0.5258050953155223,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 76.07111111111111,
+            "std": 0.4392440782490423,
+            "cv_percent": 0.5774124655645859,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 69.1588888888889,
+            "std": 0.3657757065567733,
+            "cv_percent": 0.5288918206080939,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 60.77111111111111,
+            "std": 0.568792496622942,
+            "cv_percent": 0.9359586919235158,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 111.75444444444445,
+            "std": 1.0337638296146767,
+            "cv_percent": 0.9250315141860717,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 161.76222222222222,
+            "std": 0.4285624826181688,
+            "cv_percent": 0.2649336023768439,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 80.71222222222222,
+            "std": 0.4529787158018269,
+            "cv_percent": 0.5612269162341436,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 72.98777777777778,
+            "std": 0.21320572286413778,
+            "cv_percent": 0.2921115416245094,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 101.59666666666666,
+            "std": 1.2120042878516795,
+            "cv_percent": 1.192956745154053,
+            "stability_grade": "A (Excellent)"
+          }
+        }
+      },
+      "11": {
+        "20260208": {
+          "MQ2_raw": {
+            "mean": 107.33555555555556,
+            "std": 0.5087250112446563,
+            "cv_percent": 0.47395758899421403,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 156.66,
+            "std": 0.5814714180517591,
+            "cv_percent": 0.3711677633421161,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 74.01666666666667,
+            "std": 0.12809027684072896,
+            "cv_percent": 0.173055992128884,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 69.20111111111112,
+            "std": 0.4010537966639437,
+            "cv_percent": 0.5795482041032567,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 72.32,
+            "std": 0.9385099306228155,
+            "cv_percent": 1.2977183775204861,
+            "stability_grade": "A (Excellent)"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "mean": 118.01222222222222,
+            "std": 0.144862159005907,
+            "cv_percent": 0.12275182712272392,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ3_raw": {
+            "mean": 165.90777777777777,
+            "std": 0.49169471020995226,
+            "cv_percent": 0.296366280590259,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ9_raw": {
+            "mean": 81.23333333333333,
+            "std": 0.4335742748772955,
+            "cv_percent": 0.533739361769342,
+            "stability_grade": "A (Excellent)"
+          },
+          "MQ135_raw": {
+            "mean": 74.33555555555556,
+            "std": 0.4724468556281285,
+            "cv_percent": 0.6355597292537079,
+            "stability_grade": "A (Excellent)"
+          },
+          "TGS2602_raw": {
+            "mean": 104.85777777777778,
+            "std": 0.8409668911884374,
+            "cv_percent": 0.8020071653346265,
             "stability_grade": "A (Excellent)"
           }
         }
@@ -1661,6 +3738,87 @@
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
       },
+      "01_20250206": {
+        "MQ2_raw": {
+          "cv_percent": 1.3369275446062774,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.1709396599993167,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.7388774359038554,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.0828887862416945,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.1301483005754351,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "01_20250207": {
+        "MQ2_raw": {
+          "cv_percent": 0.8351498801585063,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.6509184959666967,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.7736351902280623,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.1871916873404187,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.14412250121172088,
+          "significant_jumps": "1",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "01_20250208": {
+        "MQ2_raw": {
+          "cv_percent": 2.2798270259898676,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 3.522825607442184,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.49513918787251526,
+          "significant_jumps": "40",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.30423832140898766,
+          "significant_jumps": "16",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.2710144275081415,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
       "02_20250202": {
         "MQ2_raw": {
           "cv_percent": 1.8680638916261132,
@@ -1769,6 +3927,87 @@
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
       },
+      "02_20250206": {
+        "MQ2_raw": {
+          "cv_percent": 1.2574398224491825,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.2546034603666256,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.7744641655837966,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.9107912876427302,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.12849052087492158,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "02_20250207": {
+        "MQ2_raw": {
+          "cv_percent": 1.8530459625786706,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.6217615224694262,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 1.3041457518955004,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.6526389372808976,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.2695405295303104,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "02_20250208": {
+        "MQ2_raw": {
+          "cv_percent": 1.4914602186382493,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.6155744607653024,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.8506681171667487,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.49233749479283,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.14405876900426606,
+          "significant_jumps": "1",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
       "03_20250203": {
         "MQ2_raw": {
           "cv_percent": 0.6623828491507938,
@@ -1846,6 +4085,114 @@
         },
         "TGS2602_raw": {
           "cv_percent": 1.2630945805926133,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "03_20250206": {
+        "MQ2_raw": {
+          "cv_percent": 1.0290941856751092,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 2.003444867353715,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 2.5476761968162545,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.101808405971069,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 3.643012532993605,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "03_20260207": {
+        "MQ2_raw": {
+          "cv_percent": 1.4598996076748456,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 2.082548863802092,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 3.1632143976568563,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.526690764319562,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 4.398594380695002,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "03_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 0.7023832844772654,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.0388130407109535,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 1.4283436700842314,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.015085363191814,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.3717562417290587,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "03_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 0.8741291380861658,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.00428730746708,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 1.503107198671915,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.4319828133005215,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.4697968983595644,
           "significant_jumps": "0",
           "grade": "✓ 穩定"
         }
@@ -1931,29 +4278,110 @@
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
       },
-      "05_20250202": {
+      "04_20250206": {
         "MQ2_raw": {
-          "cv_percent": 1.0618982939845,
+          "cv_percent": 0.4690878017890578,
           "significant_jumps": "0",
-          "grade": "✓ 穩定"
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
         },
         "MQ3_raw": {
-          "cv_percent": 2.458709151279996,
+          "cv_percent": 0.932058525876482,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.7100638243081558,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.7122094548402557,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.5797167505943541,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "04_20260207": {
+        "MQ2_raw": {
+          "cv_percent": 0.4074767632240653,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.4706547234333365,
           "significant_jumps": "0",
           "grade": "✓ 穩定"
         },
         "MQ9_raw": {
-          "cv_percent": 1.1758762057768277,
+          "cv_percent": 1.1462236296821116,
           "significant_jumps": "0",
           "grade": "✓ 穩定"
         },
         "MQ135_raw": {
-          "cv_percent": 1.3116266905428462,
+          "cv_percent": 0.8124603534706503,
           "significant_jumps": "0",
-          "grade": "✓ 穩定"
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
         },
         "TGS2602_raw": {
-          "cv_percent": 0.38911633953623187,
+          "cv_percent": 1.2091581106993825,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "04_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 0.46948144424747273,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.8848213821609526,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.9692471724634169,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.8161776817807738,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.9133598779339558,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "04_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 0.6106428053430889,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.4983714582844042,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.9850010014539459,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.8404439003007497,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.9864023699703289,
           "significant_jumps": "0",
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
@@ -2012,6 +4440,60 @@
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
       },
+      "05_20250205": {
+        "MQ2_raw": {
+          "cv_percent": 0.10739528623353801,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.5265774353304881,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.2084124465547045,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.20158696046634872,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.2168811795313694,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "05_20250206": {
+        "MQ2_raw": {
+          "cv_percent": 0.25115105171442276,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.7545273507154824,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.562104598837815,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.1135530095362478,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.22222998297788987,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
       "06_20250203": {
         "MQ2_raw": {
           "cv_percent": 0.38538246662038833,
@@ -2062,6 +4544,411 @@
         },
         "TGS2602_raw": {
           "cv_percent": 0.23483253611752097,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "06_20250205": {
+        "MQ2_raw": {
+          "cv_percent": 1.7434755749131208,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 2.456652098162646,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 1.36938250516436,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.2269788964549544,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.32442653843513863,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "07_20260206": {
+        "MQ2_raw": {
+          "cv_percent": 3.045098928476082,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 2.2809604648544974,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 5.584362343931418,
+          "significant_jumps": "0",
+          "grade": "✓ 正常"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.9643348326452723,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 15.657010837202234,
+          "significant_jumps": "0",
+          "grade": "⚠️ 變化較大"
+        }
+      },
+      "07_20260207": {
+        "MQ2_raw": {
+          "cv_percent": 2.9298919665300227,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.4692235175955983,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 3.9293855270712443,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.321586118011765,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 12.554170925822852,
+          "significant_jumps": "0",
+          "grade": "✓ 正常"
+        }
+      },
+      "07_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 2.440123697508815,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 3.001940395705377,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 3.7791658006086477,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.749671804301385,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 12.26509518068169,
+          "significant_jumps": "0",
+          "grade": "✓ 正常"
+        }
+      },
+      "07_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 2.6181741896967035,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 3.169561747506676,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 3.712836832567662,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 2.5833236144092915,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 11.846159426933257,
+          "significant_jumps": "0",
+          "grade": "✓ 正常"
+        }
+      },
+      "08_20260206": {
+        "MQ2_raw": {
+          "cv_percent": 0.562871608301892,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.1127318560387278,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.5372940313972846,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.5464102593398737,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 2.012641201293874,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "08_20260207": {
+        "MQ2_raw": {
+          "cv_percent": 0.3921750823168893,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.1406135293019786,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.13546029246030653,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.5701381294690793,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.9263432632876034,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "08_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 0.5535898783195059,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.4126134436169222,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.3480865720726553,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.7877580511493849,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 2.5345904267782298,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "08_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 0.44854908437900215,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.9880447827554222,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.22570420335756355,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.6566778507146915,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.8082243802129607,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "09_20260207": {
+        "MQ2_raw": {
+          "cv_percent": 1.05864756376515,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.002359837789994,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 1.702789427123998,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ135_raw": {
+          "cv_percent": 1.1492181014061604,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.14231725251589397,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "09_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 2.166171307390821,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ3_raw": {
+          "cv_percent": 1.9878399491697503,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.7783238709306516,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.5299083612120282,
+          "significant_jumps": "58",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.15421890148371437,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "10_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 0.45239797389806746,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.5399000932841359,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.6276251331613178,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.7170235460117297,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.1397457181394348,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "10_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 0.166812506215846,
+          "significant_jumps": "62",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.30640575604372894,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.571316745638279,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.6692552077425625,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.2854938265588316,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        }
+      },
+      "11_20260208": {
+        "MQ2_raw": {
+          "cv_percent": 0.4373992420533203,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.5516745873121417,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.6510949285316008,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.4356557411963448,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 1.8333794130520091,
+          "significant_jumps": "0",
+          "grade": "✓ 穩定"
+        }
+      },
+      "11_20260209": {
+        "MQ2_raw": {
+          "cv_percent": 0.23025600078342154,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ3_raw": {
+          "cv_percent": 0.21595688715319727,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ9_raw": {
+          "cv_percent": 0.5071090265743197,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "MQ135_raw": {
+          "cv_percent": 0.6425539990702958,
+          "significant_jumps": "0",
+          "grade": "⚠️ 極穩定（可能未接觸氣體）"
+        },
+        "TGS2602_raw": {
+          "cv_percent": 0.31753587620301277,
           "significant_jumps": "0",
           "grade": "⚠️ 極穩定（可能未接觸氣體）"
         }
@@ -2203,6 +5090,87 @@
             "significant_jumps": "2",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "cv_percent": 1.679466970769165,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.6021663300498028,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.7942936945056569,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.635312863625714,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.09442198905508957,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20250207": {
+          "MQ2_raw": {
+            "cv_percent": 0.5574059922155867,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.430347161184387,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.5921837565377408,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.5439791548866099,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.11359475251032145,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20250208": {
+          "MQ2_raw": {
+            "cv_percent": 0.560666282469412,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.8191147702967148,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.6949878800114397,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.138854700908053,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.1586082981874059,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
         }
       },
       "02": {
@@ -2313,6 +5281,87 @@
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "cv_percent": 1.052523057580732,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.211942027091496,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.0634771758249197,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.4189067340444588,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.1075665149903009,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20250207": {
+          "MQ2_raw": {
+            "cv_percent": 1.2596293507076561,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.8615051123642816,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.106580911673274,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.9418970029588697,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.2720754855285598,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20250208": {
+          "MQ2_raw": {
+            "cv_percent": 0.8033441885646309,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 2.111882074360561,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.20171001180907516,
+            "significant_jumps": "8",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.5033207483805444,
+            "significant_jumps": "46",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.14592804906646026,
+            "significant_jumps": "2",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
         }
       },
       "03": {
@@ -2395,6 +5444,87 @@
             "cv_percent": 0.9008898394343277,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20250206": {
+          "MQ2_raw": {
+            "cv_percent": 0.41021489363450975,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.554786089566769,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.3903190114533452,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.0221313696581225,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.7467650715073602,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.4764218338486241,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.0686565526687408,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.1803656507619733,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.808783951140744,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.938615634816736,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.4164646093767112,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.5673120897971009,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.0771460940639237,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.8466704480530605,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.1789918016214007,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
           }
         }
       },
@@ -2479,36 +5609,117 @@
             "significant_jumps": "0",
             "grade": "✓ 穩定"
           }
-        }
-      },
-      "05": {
-        "20250202": {
+        },
+        "20250206": {
           "MQ2_raw": {
-            "cv_percent": 0.598664817452996,
+            "cv_percent": 0.4690878017890578,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "MQ3_raw": {
-            "cv_percent": 1.4907018953961673,
+            "cv_percent": 0.932058525876482,
             "significant_jumps": "0",
-            "grade": "✓ 穩定"
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "MQ9_raw": {
-            "cv_percent": 0.8151603165135026,
+            "cv_percent": 0.7100638243081558,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "MQ135_raw": {
-            "cv_percent": 0.679233733399415,
+            "cv_percent": 0.7122094548402557,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "TGS2602_raw": {
-            "cv_percent": 0.6569495716093738,
+            "cv_percent": 1.5797167505943541,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260207": {
+          "MQ2_raw": {
+            "cv_percent": 0.34719407455070883,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.3113136327402883,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.8889150755863708,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.737960839056058,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.5003972710482708,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
         },
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.45694977093280004,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.1422035710313283,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.8433056728422905,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.5070820461993703,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.8111536807759587,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.659015033571742,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.5079780380576063,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.6504714726104809,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.6138360061610774,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.8571291770550209,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        }
+      },
+      "05": {
         "20250203": {
           "MQ2_raw": {
             "cv_percent": 0.3064982502241041,
@@ -2562,36 +5773,63 @@
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
-        }
-      },
-      "06": {
-        "20250202": {
+        },
+        "20250205": {
           "MQ2_raw": {
-            "cv_percent": 0.2735790060050234,
+            "cv_percent": 0.6845559384013186,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "MQ3_raw": {
-            "cv_percent": 1.5863772946755967,
+            "cv_percent": 1.5222798308471808,
             "significant_jumps": "0",
             "grade": "✓ 穩定"
           },
           "MQ9_raw": {
-            "cv_percent": 0.5421030636388948,
+            "cv_percent": 0.8900346912528853,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "MQ135_raw": {
-            "cv_percent": 0.3216229012216898,
+            "cv_percent": 0.7425569400583785,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           },
           "TGS2602_raw": {
-            "cv_percent": 0.18816865363860116,
+            "cv_percent": 0.24023814617541253,
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
         },
+        "20260206": {
+          "MQ2_raw": {
+            "cv_percent": 0.262733889850165,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.9762292005146601,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.4414967503664469,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.39963743057514306,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.2634682760756775,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        }
+      },
+      "06": {
         "20250203": {
           "MQ2_raw": {
             "cv_percent": 0.4897459354915095,
@@ -2645,54 +5883,474 @@
             "significant_jumps": "0",
             "grade": "⚠️ 極穩定（可能未接觸氣體）"
           }
+        },
+        "20250205": {
+          "MQ2_raw": {
+            "cv_percent": 0.3364347852423229,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.5099904800345787,
+            "significant_jumps": "56",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.687208509325119,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.4323387856670931,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.28040262898967394,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        }
+      },
+      "07": {
+        "20260206": {
+          "MQ2_raw": {
+            "cv_percent": 0.9938736560629413,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 2.1058549633362,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.2151125748537546,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.0483021745262793,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 4.615637959807548,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260207": {
+          "MQ2_raw": {
+            "cv_percent": 0.4330229474239483,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.9861458454783679,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.4210091159218915,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.44146557723401736,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 2.336818747376643,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.7864716060507145,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.9080311492369415,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.6219351820528836,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.9480705975624613,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 4.2842836839637775,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.7824787816779092,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.5405240974717838,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.5957146434428099,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.6514433445393653,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 4.074552549438054,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        }
+      },
+      "08": {
+        "20260206": {
+          "MQ2_raw": {
+            "cv_percent": 0.4488766076889281,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.8076629096050626,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.5033617956894009,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.38354955005667296,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.8117167142127377,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.4835149407359046,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 1.1484306470626098,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.19509002436126766,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.457858925950774,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.5261877317802062,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.40331861207274533,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.7857715305500593,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.27010413261309524,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.47691144680934683,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.2576220715553736,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        }
+      },
+      "09": {
+        "20260207": {
+          "MQ2_raw": {
+            "cv_percent": 1.432919066756717,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ3_raw": {
+            "cv_percent": 2.2761482845056937,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.7714249844470475,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.001381102748803,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.03982205655177344,
+            "significant_jumps": "30",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 4.283069720401953,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.0,
+            "significant_jumps": 0,
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 1.3850798499433126,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "MQ135_raw": {
+            "cv_percent": 1.2224318407491577,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.16422441899879384,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        }
+      },
+      "10": {
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.22982443874617237,
+            "significant_jumps": "1",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.5258050953155223,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.5774124655645859,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.5288918206080939,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.9359586919235158,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.9250315141860717,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.2649336023768439,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.5612269162341436,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.2921115416245094,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.192956745154053,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        }
+      },
+      "11": {
+        "20260208": {
+          "MQ2_raw": {
+            "cv_percent": 0.47395758899421403,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.3711677633421161,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.173055992128884,
+            "significant_jumps": "30",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.5795482041032567,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 1.2977183775204861,
+            "significant_jumps": "0",
+            "grade": "✓ 穩定"
+          }
+        },
+        "20260209": {
+          "MQ2_raw": {
+            "cv_percent": 0.12275182712272392,
+            "significant_jumps": "29",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ3_raw": {
+            "cv_percent": 0.296366280590259,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ9_raw": {
+            "cv_percent": 0.533739361769342,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "MQ135_raw": {
+            "cv_percent": 0.6355597292537079,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          },
+          "TGS2602_raw": {
+            "cv_percent": 0.8020071653346265,
+            "significant_jumps": "0",
+            "grade": "⚠️ 極穩定（可能未接觸氣體）"
+          }
         }
       }
     }
   },
   "arduino_features": {
-    "availability": "20/20",
-    "percentage": "100.0%",
+    "availability": "46/47",
+    "percentage": "97.9%",
     "details": {
       "01": {
         "20250201": true,
         "20250202": true,
         "20250203": true,
         "20250204": true,
-        "20250205": true
+        "20250205": true,
+        "20250206": true,
+        "20250207": true,
+        "20250208": true
       },
       "02": {
         "20250202": true,
         "20250203": true,
         "20250204": true,
-        "20250205": true
+        "20250205": true,
+        "20250206": true,
+        "20250207": true,
+        "20250208": true
       },
       "03": {
         "20250203": true,
         "20250204": true,
-        "20250205": true
+        "20250205": true,
+        "20250206": true,
+        "20260208": true,
+        "20260209": true
       },
       "04": {
         "20250203": true,
         "20250204": true,
-        "20250205": true
+        "20250205": true,
+        "20250206": true,
+        "20260207": true,
+        "20260208": true,
+        "20260209": true
       },
       "05": {
-        "20250202": true,
         "20250203": true,
-        "20250204": true
+        "20250204": true,
+        "20250205": true
       },
       "06": {
         "20250203": true,
-        "20250204": true
+        "20250204": true,
+        "20250205": false
+      },
+      "07": {
+        "20260206": true,
+        "20260207": true,
+        "20260208": true,
+        "20260209": true
+      },
+      "08": {
+        "20260206": true,
+        "20260208": true,
+        "20260209": true
+      },
+      "09": {
+        "20260207": true,
+        "20260208": true
+      },
+      "10": {
+        "20260208": true,
+        "20260209": true
+      },
+      "11": {
+        "20260208": true,
+        "20260209": true
       }
     }
   },
   "recommendations": [
-    {
-      "type": "data_sufficiency",
-      "priority": "high",
-      "message": "目前只有 6 顆鳳梨，建議追加至少 10 顆以上以提高模型可靠性"
-    },
     {
       "type": "sensor_health",
       "priority": "low",
@@ -2768,6 +6426,60 @@
     {
       "type": "sensor_health",
       "priority": "low",
+      "pineapple": "01_20250206",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250206",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250207",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250207",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250207",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250207",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "01_20250208",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
       "pineapple": "02_20250202",
       "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
@@ -2828,6 +6540,54 @@
     {
       "type": "sensor_health",
       "priority": "low",
+      "pineapple": "02_20250206",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250207",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250207",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_noise",
+      "priority": "medium",
+      "pineapple": "02_20250208",
+      "message": "MQ135_raw 有 46 次顯著跳變，檢查訊號品質"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "02_20250208",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
       "pineapple": "03_20250203",
       "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
@@ -2884,6 +6644,42 @@
       "priority": "low",
       "pineapple": "03_20250205",
       "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20250206",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20260209",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "03_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
@@ -2954,25 +6750,103 @@
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "05_20250202",
+      "pineapple": "04_20250206",
       "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "05_20250202",
+      "pineapple": "04_20250206",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20250206",
       "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "05_20250202",
+      "pineapple": "04_20250206",
       "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "05_20250202",
+      "pineapple": "04_20260207",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260207",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260207",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260207",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260208",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260209",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260209",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "04_20260209",
       "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
@@ -3038,25 +6912,55 @@
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "06_20250202",
+      "pineapple": "05_20250205",
       "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "06_20250202",
+      "pineapple": "05_20250205",
       "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "06_20250202",
+      "pineapple": "05_20250205",
       "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
       "type": "sensor_health",
       "priority": "low",
-      "pineapple": "06_20250202",
+      "pineapple": "05_20250205",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "05_20260206",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "05_20260206",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "05_20260206",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "05_20260206",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "05_20260206",
       "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     },
     {
@@ -3117,6 +7021,330 @@
       "type": "sensor_health",
       "priority": "low",
       "pineapple": "06_20250204",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "06_20250205",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "06_20250205",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_noise",
+      "priority": "medium",
+      "pineapple": "06_20250205",
+      "message": "MQ3_raw 有 56 次顯著跳變，檢查訊號品質"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "06_20250205",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "06_20250205",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "06_20250205",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260206",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260207",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260207",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260207",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260207",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260209",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "07_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260206",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260206",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260206",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260206",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260206",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260209",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260209",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "08_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "09_20260207",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "09_20260207",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_noise",
+      "priority": "medium",
+      "pineapple": "09_20260207",
+      "message": "TGS2602_raw 有 30 次顯著跳變，檢查訊號品質"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "09_20260208",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "09_20260208",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260208",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260208",
+      "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260209",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260209",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "10_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260208",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260208",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260208",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_noise",
+      "priority": "medium",
+      "pineapple": "11_20260208",
+      "message": "MQ9_raw 有 30 次顯著跳變，檢查訊號品質"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260208",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260209",
+      "message": "MQ2_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_noise",
+      "priority": "medium",
+      "pineapple": "11_20260209",
+      "message": "MQ2_raw 有 29 次顯著跳變，檢查訊號品質"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260209",
+      "message": "MQ3_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260209",
+      "message": "MQ9_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260209",
+      "message": "MQ135_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
+    },
+    {
+      "type": "sensor_health",
+      "priority": "low",
+      "pineapple": "11_20260209",
       "message": "TGS2602_raw 變異極小（CV < 1%），可能未接觸氣體或感測器故障"
     }
   ]
