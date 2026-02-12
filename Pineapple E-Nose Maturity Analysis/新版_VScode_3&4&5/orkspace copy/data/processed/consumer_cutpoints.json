@@ -1,0 +1,10 @@
+{
+  "mq135_col": "MQ135_Rs_R0",
+  "tgs2602_col": "TGS2602_Rs_R0",
+  "w_mq135": 0.4,
+  "w_tgs2602": 0.6,
+  "q25": 17.243690460655095,
+  "q50": 44.974532167558394,
+  "q75": 78.77231371525512,
+  "note": "cutpoints computed from feature_matrix.csv (real data), for consumer inference"
+}
